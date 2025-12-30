@@ -1,145 +1,117 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>FanDuel Player Props Viewer</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>FanDuel Player Props Viewer</title>
 
-  <style>
-    :root{
-      --bg:#0b0f14; --panel:#111826; --text:#e7edf5; --muted:#a9b9cd;
-      --border:#223044; --novig:#7d5cff; --hover:#162235;
-    }
-    body{
-      margin:0; background:var(--bg); color:var(--text);
-      font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
-    }
-    header{ padding:16px 18px; border-bottom:1px solid var(--border); }
-    h1{ margin:0 0 6px; font-size:20px; }
-    .sub{ color:var(--muted); font-size:14px; }
+<style>
+:root{
+  --bg:#0b0f14; --panel:#111826; --text:#e7edf5; --muted:#a9b9cd;
+  --border:#223044; --novig:#7d5cff; --hover:#162235;
+}
+body{ margin:0; background:var(--bg); color:var(--text);
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+header{ padding:16px 18px; border-bottom:1px solid var(--border); }
+h1{ margin:0 0 6px; font-size:20px; }
+.sub{ color:var(--muted); font-size:14px; }
 
-    .wrap{ padding:14px 18px 28px; }
+.wrap{ padding:14px 18px 28px; }
 
-    .controls{
-      background:var(--panel); border:1px solid var(--border);
-      border-radius:14px; padding:12px;
-      display:grid; gap:10px;
-    }
-    .row{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+.controls{
+  background:var(--panel); border:1px solid var(--border);
+  border-radius:14px; padding:12px;
+  display:grid; gap:10px;
+}
+.row{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
 
-    .field{
-      display:flex; align-items:center; gap:8px;
-      border:1px solid var(--border);
-      border-radius:999px; padding:10px 12px;
-      flex:1 1 240px; min-width:220px;
-      background:rgba(255,255,255,0.02);
-    }
-    .field label{ font-size:13px; color:var(--muted); white-space:nowrap; }
-    .field input, .field select{
-      background:transparent; border:0; color:var(--text);
-      width:100%; outline:none; min-width:0;
-    }
+.field{
+  display:flex; align-items:center; gap:8px;
+  border:1px solid var(--border);
+  border-radius:999px; padding:10px 12px;
+  flex:1 1 240px;
+}
+.field label{ font-size:13px; color:var(--muted); }
+.field input, .field select{
+  background:transparent; border:0; color:var(--text);
+  width:100%; outline:none;
+}
 
-    button{
-      background:rgba(255,255,255,.04);
-      border:1px solid var(--border);
-      color:var(--text);
-      border-radius:10px;
-      padding:10px 12px;
-      cursor:pointer;
-      font-size:14px;
-    }
+button{
+  background:rgba(255,255,255,.04);
+  border:1px solid var(--border);
+  color:var(--text);
+  border-radius:10px;
+  padding:10px 12px;
+  cursor:pointer;
+}
 
-    .meta{
-      margin-top:12px; font-size:14px; color:var(--muted);
-      display:flex; gap:14px; flex-wrap:wrap;
-      align-items:center;
-    }
-    .status-ok{ color:#8be28b; }
-    .status-err{ color:#ff7a7a; }
+.meta{
+  margin-top:12px; font-size:14px; color:var(--muted);
+  display:flex; gap:14px; flex-wrap:wrap;
+}
 
-    .table-wrap{
-      margin-top:14px;
-      border:1px solid var(--border);
-      border-radius:14px;
-      background:var(--panel);
-      overflow:hidden;
-    }
-    table{ width:100%; border-collapse:collapse; table-layout:fixed; }
-    thead th{
-      position:sticky; top:0;
-      background:#111826;
-      color:var(--muted);
-      padding:12px;
-      border-bottom:1px solid var(--border);
-      cursor:pointer;
-      white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
-      font-size:14px;
-    }
-    tbody td{
-      padding:12px;
-      border-top:1px solid rgba(34,48,68,.5);
-      white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
-      font-size:15px;
-    }
-    tbody tr:hover td{ background:var(--hover); }
+.table-wrap{
+  margin-top:14px;
+  border:1px solid var(--border);
+  border-radius:14px;
+  background:var(--panel);
+  overflow:hidden;
+}
+table{ width:100%; border-collapse:collapse; table-layout:fixed; }
+thead th{
+  position:sticky; top:0;
+  background:#111826; color:var(--muted);
+  padding:12px; cursor:pointer;
+}
+tbody td{
+  padding:12px;
+  border-top:1px solid rgba(34,48,68,.5);
+}
+tbody tr:hover td{ background:var(--hover); }
 
-    .novig{
-      background:linear-gradient(90deg, rgba(125,92,255,.25), rgba(125,92,255,.05));
-      border-left:3px solid var(--novig);
-    }
+.novig{
+  background:linear-gradient(90deg, rgba(125,92,255,.25), rgba(125,92,255,.05));
+  border-left:3px solid var(--novig);
+}
 
-    /* widths */
-    th.col-market, td.col-market { width: 170px; }
-    th.col-player, td.col-player { width: 220px; }
-    th.col-line, td.col-line { width: 90px; }
-    th.col-outcome, td.col-outcome { width: 100px; }
-    th.col-price, td.col-price { width: 120px; }
-    th.col-novig, td.col-novig { width: 120px; }
-    th.col-team, td.col-team { width: 200px; }
+/* mobile cards */
+.cards{ display:none; margin-top:14px; }
+.card{
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:12px;
+  margin-bottom:10px;
+}
+.card-top{
+  display:flex; justify-content:space-between; gap:10px;
+}
+.card-title{ font-weight:700; font-size:16px; }
+.chip{
+  border:1px solid var(--border);
+  border-radius:999px;
+  padding:4px 8px;
+  font-size:12px; color:var(--muted);
+}
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:10px; margin-top:10px;
+}
+.k{ font-size:12px; color:var(--muted); }
+.v{ font-size:15px; }
+.v.novigv{
+  background:linear-gradient(90deg, rgba(125,92,255,.3), rgba(125,92,255,.1));
+  padding:8px; border-radius:10px;
+  text-align:center; font-weight:700;
+}
 
-    /* Mobile cards */
-    .cards{ display:none; margin-top:14px; }
-    .card{
-      background:var(--panel);
-      border:1px solid var(--border);
-      border-radius:14px;
-      padding:12px;
-      margin-bottom:10px;
-    }
-    .card-top{
-      display:flex; justify-content:space-between; align-items:flex-start;
-      gap:10px;
-    }
-    .card-title{ font-weight:750; font-size:16px; line-height:1.2; }
-    .chip{
-      border:1px solid var(--border);
-      border-radius:999px;
-      padding:4px 8px;
-      font-size:12px; color:var(--muted);
-      white-space:nowrap;
-      background:rgba(255,255,255,0.02);
-    }
-    .grid{
-      display:grid;
-      grid-template-columns: 1fr 1fr;
-      gap:10px; margin-top:10px;
-    }
-    .k{ font-size:12px; color:var(--muted); }
-    .v{ font-size:15px; }
-    .v.novigv{
-      background:linear-gradient(90deg, rgba(125,92,255,.3), rgba(125,92,255,.1));
-      padding:8px; border-radius:10px;
-      text-align:center; font-weight:750;
-      border:1px solid rgba(125,92,255,.35);
-    }
-
-    @media (max-width:720px){
-      .table-wrap{ display:none; }
-      .cards{ display:block; }
-      .field{ min-width:0; flex:1 1 100%; }
-    }
-  </style>
+@media (max-width:720px){
+  .table-wrap{ display:none; }
+  .cards{ display:block; }
+}
+</style>
 </head>
 
 <body>
@@ -153,44 +125,17 @@
     <div class="row">
       <div class="field">
         <label>Search</label>
-        <input id="q" placeholder="Player, market, team…" autocomplete="off" />
+        <input id="q" placeholder="Player, market, team…" />
       </div>
-
-      <div class="field" style="flex:0 0 auto; min-width:140px;">
+      <div class="field" style="flex:0 0 120px">
         <label>Rows</label>
         <select id="rows">
-          <option>25</option>
-          <option selected>50</option>
-          <option>100</option>
-          <option>250</option>
-          <option value="1000000">All</option>
-        </select>
-      </div>
-
-      <div class="field" style="flex:0 0 auto; min-width:160px;">
-        <label>Outcome</label>
-        <select id="outcome">
-          <option value="">All</option>
-          <option value="over">Over</option>
-          <option value="under">Under</option>
+          <option>25</option><option selected>50</option>
+          <option>100</option><option value="100000">All</option>
         </select>
       </div>
     </div>
-
     <div class="row">
-      <div class="field">
-        <label>Market</label>
-        <select id="market">
-          <option value="">All</option>
-        </select>
-      </div>
-      <div class="field">
-        <label>Team</label>
-        <select id="team">
-          <option value="">All</option>
-        </select>
-      </div>
-
       <button id="download">Download filtered CSV</button>
       <button id="clear">Clear filters</button>
     </div>
@@ -200,50 +145,47 @@
     <div>Source: <strong>cleaned_props.csv</strong></div>
     <div>Rows: <strong id="total">0</strong></div>
     <div>Showing: <strong id="shown">0</strong></div>
-    <div id="status" class="status-ok"></div>
   </div>
 
   <div class="table-wrap">
-    <div style="max-height:72vh; overflow:auto;">
-      <table>
-        <thead></thead>
-        <tbody></tbody>
-      </table>
-    </div>
+    <table>
+      <thead></thead>
+      <tbody></tbody>
+    </table>
   </div>
 
   <div class="cards" id="cards"></div>
 </div>
 
 <script>
-/* cache-buster to avoid stale CSV */
 const CSV_URL = "cleaned_props.csv?ts=" + Date.now();
 
-/* columns to display */
+/* columns */
 const DISPLAY = [
-  { key:"market", label:"Market", cls:"col-market" },
-  { key:"description", label:"Player", cls:"col-player" },
-  { key:"point", label:"Line", cls:"col-line" },
-  { key:"outcome", label:"Outcome", cls:"col-outcome" },
-  { key:"price_american", label:"FanDuel Prop", cls:"col-price" },
-  { key:"no_vig_prob", label:"No Vig %", cls:"col-novig", novig:true },
-  { key:"home_team", label:"Home Team", cls:"col-team" },
-  { key:"away_team", label:"Away Team", cls:"col-team" },
+  { key:"commence_time", label:"Game Time" },
+  { key:"market", label:"Market" },
+  { key:"description", label:"Player" },
+  { key:"point", label:"Line" },
+  { key:"outcome", label:"Outcome" },
+  { key:"price_american", label:"FanDuel Prop" },
+  { key:"no_vig_prob", label:"No Vig %", novig:true },
+  { key:"home_team", label:"Home Team" },
+  { key:"away_team", label:"Away Team" },
 ];
 
-/* quote-safe CSV parser */
+/* robust CSV parser */
 function parseCSV(text){
   const rows=[], row=[]; let cur="", q=false;
   for(let i=0;i<text.length;i++){
     const c=text[i], n=text[i+1];
     if(q){
-      if(c=='"' && n=='"'){ cur+='"'; i++; }
-      else if(c=='"'){ q=false; }
+      if(c=='"' && n=='"'){cur+='"';i++;}
+      else if(c=='"'){q=false;}
       else cur+=c;
     }else{
       if(c=='"') q=true;
-      else if(c==','){ row.push(cur); cur=""; }
-      else if(c=='\n'){ row.push(cur); rows.push(row.splice(0)); cur=""; }
+      else if(c==','){row.push(cur);cur="";}
+      else if(c=='\n'){row.push(cur);rows.push(row.splice(0));cur="";}
       else if(c!='\r') cur+=c;
     }
   }
@@ -251,245 +193,87 @@ function parseCSV(text){
   return rows;
 }
 
-function titleCase(s){
-  return String(s ?? "").replace(/\b\w/g, c => c.toUpperCase());
+function formatTime(iso){
+  if(!iso) return "";
+  const d=new Date(iso);
+  return d.toLocaleTimeString([], { hour:"numeric", minute:"2-digit" });
 }
 
-function formatCell(key, val){
-  if(key === "no_vig_prob"){
-    const n = Number(val);
-    return Number.isFinite(n) ? (n*100).toFixed(2) + "%" : "";
-  }
-  if(key === "market"){
-    const s = String(val ?? "").replaceAll("_"," ");
-    return titleCase(s);
-  }
-  if(key === "price_american"){
-    const n = Number(val);
-    if(!Number.isFinite(n)) return String(val ?? "");
-    return n > 0 ? `+${n}` : `${n}`;
-  }
-  return (val ?? "").toString();
+function format(key,val){
+  if(key==="market") return val.replaceAll("_"," ").replace(/\b\w/g,c=>c.toUpperCase());
+  if(key==="no_vig_prob") return (Number(val)*100).toFixed(2)+"%";
+  if(key==="price_american"){ const n=Number(val); return n>0?`+${n}`:`${n}`; }
+  if(key==="commence_time") return formatTime(val);
+  return val ?? "";
 }
 
-function escapeHtml(s){
-  return String(s ?? "")
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;")
-    .replaceAll('"',"&quot;")
-    .replaceAll("'","&#039;");
-}
-
-function uniqSorted(arr){
-  return Array.from(new Set(arr.filter(Boolean))).sort((a,b)=>
-    a.localeCompare(b, undefined, {numeric:true, sensitivity:"base"})
-  );
-}
-
-function populateSelect(selectEl, values){
-  const keep = selectEl.querySelector("option[value='']");
-  const cur = selectEl.value;
-  selectEl.innerHTML="";
-  selectEl.appendChild(keep);
-  for(const v of values){
-    const opt=document.createElement("option");
-    opt.value=v;
-    opt.textContent = formatCell(selectEl.id === "market" ? "market" : "team", v);
-    selectEl.appendChild(opt);
-  }
-  if ([...selectEl.options].some(o => o.value === cur)) selectEl.value = cur;
-  else selectEl.value = "";
-}
-
-/* ================== APP ================== */
-let data=[], filtered=[];
-let sortKey=null, sortDir=1;
-
-const thead=document.querySelector("thead");
-const tbody=document.querySelector("tbody");
-const cards=document.getElementById("cards");
-
-function applyFilters(){
-  const q = document.getElementById("q").value.trim().toLowerCase();
-  const market = document.getElementById("market").value;
-  const team = document.getElementById("team").value;
-  const outcome = document.getElementById("outcome").value;
-
-  filtered = data.filter(r=>{
-    if(market && r.market !== market) return false;
-    if(outcome && String(r.outcome ?? "").toLowerCase() !== outcome) return false;
-    if(team && r.home_team !== team && r.away_team !== team) return false;
-
-    if(q){
-      const hay = [
-        r.description, r.market, r.home_team, r.away_team, r.outcome, r.point, r.price_american
-      ].map(x=>String(x ?? "").toLowerCase()).join(" | ");
-      if(!hay.includes(q)) return false;
-    }
-    return true;
+fetch(CSV_URL).then(r=>r.text()).then(text=>{
+  const rows=parseCSV(text);
+  const headers=rows.shift();
+  const data=rows.map(r=>{
+    const o={}; headers.forEach((h,i)=>o[h]=r[i]); return o;
   });
 
-  if(sortKey){
-    filtered.sort((a,b)=>{
-      const av=a[sortKey], bv=b[sortKey];
-      const na=Number(av), nb=Number(bv);
-      if(Number.isFinite(na) && Number.isFinite(nb)) return sortDir*(na-nb);
-      return sortDir*String(av ?? "").localeCompare(String(bv ?? ""), undefined, {numeric:true, sensitivity:"base"});
+  const thead=document.querySelector("thead");
+  const tbody=document.querySelector("tbody");
+  const cards=document.getElementById("cards");
+
+  thead.innerHTML="<tr>"+DISPLAY.map(c=>`<th>${c.label}</th>`).join("")+"</tr>";
+
+  function render(){
+    const q=document.getElementById("q").value.toLowerCase();
+    const limit=Number(document.getElementById("rows").value);
+
+    const filtered=data.filter(r=>Object.values(r).join(" ").toLowerCase().includes(q))
+      .slice(0,limit);
+
+    tbody.innerHTML="";
+    cards.innerHTML="";
+
+    filtered.forEach(r=>{
+      const tr=document.createElement("tr");
+      DISPLAY.forEach(c=>{
+        const td=document.createElement("td");
+        td.textContent=format(c.key,r[c.key]);
+        if(c.novig) td.classList.add("novig");
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+
+      cards.innerHTML+=`
+        <div class="card">
+          <div class="card-top">
+            <div class="card-title">${r.description}</div>
+            <div class="chip">${format("market",r.market)}</div>
+          </div>
+          <div class="grid">
+            <div><div class="k">Game Time</div><div class="v">${format("commence_time",r.commence_time)}</div></div>
+            <div><div class="k">Line</div><div class="v">${r.point}</div></div>
+            <div><div class="k">Outcome</div><div class="v">${r.outcome}</div></div>
+            <div><div class="k">FanDuel</div><div class="v">${format("price_american",r.price_american)}</div></div>
+            <div><div class="k">No Vig</div><div class="v novigv">${format("no_vig_prob",r.no_vig_prob)}</div></div>
+            <div><div class="k">Matchup</div><div class="v">${r.away_team} @ ${r.home_team}</div></div>
+          </div>
+        </div>`;
     });
-  }
-}
 
-function render(){
-  applyFilters();
-  const limit = Number(document.getElementById("rows").value);
-  const view = filtered.slice(0, limit);
-
-  // table
-  tbody.innerHTML="";
-  for(const r of view){
-    const tr=document.createElement("tr");
-    for(const col of DISPLAY){
-      const td=document.createElement("td");
-      td.className = col.cls + (col.novig ? " novig col-novig" : "");
-      td.textContent = formatCell(col.key, r[col.key]);
-      tr.appendChild(td);
-    }
-    tbody.appendChild(tr);
+    document.getElementById("total").textContent=data.length;
+    document.getElementById("shown").textContent=filtered.length;
   }
 
-  // cards
-  cards.innerHTML="";
-  for(const r of view){
-    const player = escapeHtml(r.description);
-    const marketText = escapeHtml(formatCell("market", r.market));
-    const outcomeText = escapeHtml(r.outcome);
-    const lineText = escapeHtml(r.point ?? "");
-    const fdText = escapeHtml(formatCell("price_american", r.price_american));
-    const nvText = escapeHtml(formatCell("no_vig_prob", r.no_vig_prob));
-    const homeText = escapeHtml(r.home_team);
-    const awayText = escapeHtml(r.away_team);
+  ["q","rows"].forEach(id=>document.getElementById(id).oninput=render);
+  document.getElementById("clear").onclick=()=>{document.getElementById("q").value="";render();};
 
-    const card=document.createElement("div");
-    card.className="card";
-    card.innerHTML = `
-      <div class="card-top">
-        <div class="card-title">${player}</div>
-        <div class="chip">${marketText}</div>
-      </div>
-      <div class="grid">
-        <div><div class="k">Line</div><div class="v">${lineText}</div></div>
-        <div><div class="k">Outcome</div><div class="v">${outcomeText}</div></div>
-        <div><div class="k">FanDuel</div><div class="v">${fdText}</div></div>
-        <div><div class="k">No Vig</div><div class="v novigv">${nvText}</div></div>
-        <div><div class="k">Home</div><div class="v">${homeText}</div></div>
-        <div><div class="k">Away</div><div class="v">${awayText}</div></div>
-      </div>
-    `;
-    cards.appendChild(card);
-  }
-
-  document.getElementById("total").textContent = data.length;
-  document.getElementById("shown").textContent = filtered.length;
-}
-
-fetch(CSV_URL, { cache:"no-store" })
-  .then(r => {
-    if(!r.ok) throw new Error(`HTTP ${r.status}`);
-    return r.text();
-  })
-  .then(text => {
-    const rows = parseCSV(text);
-    const headers = (rows.shift() || []).map(h => (h ?? "").trim());
-    const idx = Object.fromEntries(headers.map((h,i)=>[h,i]));
-
-    const needed = ["market","description","point","outcome","price_american","no_vig_prob","home_team","away_team"];
-    const missing = needed.filter(k => !(k in idx));
-    if(missing.length){
-      document.getElementById("status").className = "status-err";
-      document.getElementById("status").textContent = "Missing columns: " + missing.join(", ");
-      return;
-    }
-
-    data = rows
-      .filter(r => r && r.some(x => String(x ?? "").trim() !== ""))
-      .map(r => ({
-        market: r[idx.market] ?? "",
-        description: r[idx.description] ?? "",
-        point: r[idx.point] ?? "",
-        outcome: r[idx.outcome] ?? "",
-        price_american: r[idx.price_american] ?? "",
-        no_vig_prob: r[idx.no_vig_prob] ?? "",
-        home_team: r[idx.home_team] ?? "",
-        away_team: r[idx.away_team] ?? "",
-      }));
-
-    // header
-    thead.innerHTML="";
-    const tr=document.createElement("tr");
-    DISPLAY.forEach(col=>{
-      const th=document.createElement("th");
-      th.textContent = col.label;
-      th.className = col.cls + (col.novig ? " novig" : "");
-      th.onclick=()=>{
-        sortDir = sortKey===col.key ? -sortDir : 1;
-        sortKey = col.key;
-        render();
-      };
-      tr.appendChild(th);
-    });
-    thead.appendChild(tr);
-
-    // dropdowns
-    populateSelect(document.getElementById("market"), uniqSorted(data.map(r=>r.market)));
-    populateSelect(document.getElementById("team"), uniqSorted(data.flatMap(r=>[r.home_team, r.away_team])));
-
-    document.getElementById("status").className = "status-ok";
-    document.getElementById("status").textContent = "Loaded ✓ (no_vig_prob)";
-
-    render();
-  })
-  .catch(e => {
-    document.getElementById("status").className = "status-err";
-    document.getElementById("status").textContent = "Failed to load CSV: " + e.message;
-  });
-
-["q","rows","market","team","outcome"].forEach(id=>{
-  const el=document.getElementById(id);
-  el.addEventListener("input", render);
-  el.addEventListener("change", render);
-});
-
-document.getElementById("clear").onclick = () => {
-  document.getElementById("q").value = "";
-  document.getElementById("market").value = "";
-  document.getElementById("team").value = "";
-  document.getElementById("outcome").value = "";
-  sortKey=null; sortDir=1;
-  render();
-};
-
-document.getElementById("download").onclick=()=>{
-  applyFilters();
-  const outHeaders = DISPLAY.map(c=>c.label);
-  const outKeys = DISPLAY.map(c=>c.key);
-
-  const esc = (s) => {
-    const v = String(s ?? "");
-    return /[",\n]/.test(v) ? `"${v.replace(/"/g,'""')}"` : v;
+  document.getElementById("download").onclick=()=>{
+    const csv=[DISPLAY.map(c=>c.label).join(","),
+      ...data.map(r=>DISPLAY.map(c=>format(c.key,r[c.key])).join(","))].join("\n");
+    const a=document.createElement("a");
+    a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv"}));
+    a.download="filtered_props.csv"; a.click();
   };
 
-  const csv = [
-    outHeaders.map(esc).join(","),
-    ...filtered.map(r => outKeys.map(k => esc(formatCell(k, r[k]))).join(","))
-  ].join("\n");
-
-  const blob=new Blob([csv],{type:"text/csv"});
-  const a=document.createElement("a");
-  a.href=URL.createObjectURL(blob);
-  a.download="filtered_props.csv";
-  a.click();
-};
+  render();
+});
 </script>
 </body>
 </html>
