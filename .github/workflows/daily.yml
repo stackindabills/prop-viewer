@@ -1,0 +1,35 @@
+name: Daily update CSV
+
+on:
+  schedule:
+    - cron: "10 11 * * *"   # Runs every day at 11:10 UTC
+  workflow_dispatch: {}     # Allows manual "Run workflow" button
+
+permissions:
+  contents: write           # Allows committing back to the repo
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1) Pull your repo code into the runner
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # 2) Install Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 3) Install dependencies (if requirements.txt exists)
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      # 4) Run your script (inject API key securely)
+      - name: Run props fetcher
+        env:
+          DRAFT_ODDS_API_KEY: ${{ secrets.DRAFT_ODDS_API_KEY }}
+        run:
