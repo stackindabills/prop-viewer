@@ -2,18 +2,18 @@ name: Daily update CSV
 
 on:
   schedule:
-    - cron: "10 11 * * *"   # Runs every day at 11:10 UTC
-  workflow_dispatch: {}     # Allows manual "Run workflow" button
+    - cron: "10 11 * * *"   # Runs daily at 11:10 UTC
+  workflow_dispatch: {}     # Manual run button
 
 permissions:
-  contents: write           # Allows committing back to the repo
+  contents: write           # Allow committing back to repo
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -23,6 +23,8 @@ jobs:
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
+          pip install requests
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run props fetcher
