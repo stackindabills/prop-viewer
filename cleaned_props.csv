@@ -1,1 +1,313 @@
-
+event_id,home_team,away_team,commence_time,bookmaker,bookmaker_title,bookmaker_last_update,market_last_update,market,outcome,description,point,price_american,implied_prob,no_vig_prob
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Over,Tyrese Maxey,6.5,-102,0.50495,0.052472
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Under,Tyrese Maxey,6.5,-130,0.565217,0.058735
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Over,Joel Embiid,3.5,-108,0.519231,0.053956
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Under,Joel Embiid,3.5,-122,0.54955,0.057107
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Over,Quentin Grimes,3.5,142,0.413223,0.042941
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Under,Quentin Grimes,3.5,-192,0.657534,0.068328
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Over,Santi Aldama,3.5,128,0.438596,0.045577
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Under,Santi Aldama,3.5,-172,0.632353,0.065712
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Over,Paul George,3.5,-114,0.53271,0.055357
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Under,Paul George,3.5,-114,0.53271,0.055357
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Over,VJ Edgecombe,3.5,-136,0.576271,0.059884
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Under,VJ Edgecombe,3.5,102,0.49505,0.051444
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Over,Cam Spencer,5.5,-102,0.50495,0.052472
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Under,Cam Spencer,5.5,-130,0.565217,0.058735
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Over,Cedric Coward,2.5,-102,0.50495,0.052472
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Under,Cedric Coward,2.5,-130,0.565217,0.058735
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Over,Ja Morant,7.5,-114,0.53271,0.055357
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_assists,Under,Ja Morant,7.5,-114,0.53271,0.055357
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,Ja Morant,20.5,-108,0.519231,0.037335
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,Ja Morant,20.5,-122,0.54955,0.039515
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,Jared McCain,8.5,-112,0.528302,0.037987
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,Jared McCain,8.5,-118,0.541284,0.03892
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,Cam Spencer,11.5,-128,0.561404,0.040367
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,Cam Spencer,11.5,-104,0.509804,0.036657
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,Jaren Jackson Jr,19.5,-130,0.565217,0.040641
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,Jaren Jackson Jr,19.5,-102,0.50495,0.036308
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,Jaylen Wells,12.5,-110,0.52381,0.037664
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,Jaylen Wells,12.5,-122,0.54955,0.039515
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,Quentin Grimes,12.5,-102,0.50495,0.036308
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,Quentin Grimes,12.5,-130,0.565217,0.040641
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,Cedric Coward,12.5,-110,0.52381,0.037664
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,Cedric Coward,12.5,-120,0.545455,0.03922
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,Paul George,16.5,-106,0.514563,0.036999
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,Paul George,16.5,-125,0.555556,0.039947
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,Joel Embiid,24.5,100,0.5,0.035952
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,Joel Embiid,24.5,-132,0.568966,0.040911
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,Jock Landale,10.5,102,0.49505,0.035596
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,Jock Landale,10.5,-136,0.576271,0.041436
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,Tyrese Maxey,27.5,-125,0.555556,0.039947
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,Tyrese Maxey,27.5,-104,0.509804,0.036657
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,VJ Edgecombe,14.5,-112,0.528302,0.037987
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,VJ Edgecombe,14.5,-118,0.541284,0.03892
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Over,Santi Aldama,15.5,-112,0.528302,0.037987
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points,Under,Santi Aldama,15.5,-118,0.541284,0.03892
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Over,Joel Embiid,35.5,-118,0.541284,0.04222
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Under,Joel Embiid,35.5,-112,0.528302,0.041207
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Over,Tyrese Maxey,38.5,-114,0.53271,0.041551
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Under,Tyrese Maxey,38.5,-114,0.53271,0.041551
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Over,Jared McCain,13.5,-108,0.519231,0.0405
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Under,Jared McCain,13.5,-122,0.54955,0.042864
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Over,Santi Aldama,26.5,-125,0.555556,0.043333
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Under,Santi Aldama,26.5,-106,0.514563,0.040135
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Over,Cam Spencer,20.5,-112,0.528302,0.041207
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Under,Cam Spencer,20.5,-118,0.541284,0.04222
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Over,Quentin Grimes,18.5,-114,0.53271,0.041551
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Under,Quentin Grimes,18.5,-114,0.53271,0.041551
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Over,Paul George,25.5,-118,0.541284,0.04222
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Under,Paul George,25.5,-112,0.528302,0.041207
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Over,Jaylen Wells,18.5,-112,0.528302,0.041207
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Under,Jaylen Wells,18.5,-118,0.541284,0.04222
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Over,VJ Edgecombe,23.5,-108,0.519231,0.0405
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Under,VJ Edgecombe,23.5,-122,0.54955,0.042864
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Over,Ja Morant,31.5,-122,0.54955,0.042864
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Under,Ja Morant,31.5,-108,0.519231,0.0405
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Over,Cedric Coward,21.5,-114,0.53271,0.041551
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Under,Cedric Coward,21.5,-114,0.53271,0.041551
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Over,Jaren Jackson Jr,28.5,-118,0.541284,0.04222
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_points_rebounds_assists,Under,Jaren Jackson Jr,28.5,-112,0.528302,0.041207
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Over,VJ Edgecombe,1.5,-180,0.642857,0.05009
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Under,VJ Edgecombe,1.5,134,0.42735,0.033298
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Over,Jaylen Wells,1.5,-132,0.568966,0.044332
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Under,Jaylen Wells,1.5,100,0.5,0.038959
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Over,Cedric Coward,1.5,148,0.403226,0.031418
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Under,Cedric Coward,1.5,-200,0.666667,0.051945
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Over,Cam Spencer,2.5,106,0.485437,0.037824
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Under,Cam Spencer,2.5,-140,0.583333,0.045452
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Over,Quentin Grimes,1.5,-180,0.642857,0.05009
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Under,Quentin Grimes,1.5,134,0.42735,0.033298
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Over,Jared McCain,1.5,106,0.485437,0.037824
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Under,Jared McCain,1.5,-140,0.583333,0.045452
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Over,Paul George,2.5,-112,0.528302,0.041164
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Under,Paul George,2.5,-118,0.541284,0.042175
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Over,Joel Embiid,1.5,106,0.485437,0.037824
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Under,Joel Embiid,1.5,-140,0.583333,0.045452
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Over,Santi Aldama,1.5,-148,0.596774,0.046499
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Under,Santi Aldama,1.5,112,0.471698,0.036753
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Over,Tyrese Maxey,3.5,-104,0.509804,0.039722
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Under,Tyrese Maxey,3.5,-128,0.561404,0.043743
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Over,Jaren Jackson Jr,1.5,-102,0.50495,0.039344
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Under,Jaren Jackson Jr,1.5,-130,0.565217,0.04404
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Over,Ja Morant,1.5,136,0.423729,0.033016
+2645cf99b94b2d0cc4ecbfed1cf56bdf,Memphis Grizzlies,Philadelphia 76ers,2025-12-31T01:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:09Z,player_threes,Under,Ja Morant,1.5,-182,0.64539,0.050287
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_assists,Over,Jusuf Nurkic,4.5,116,0.462963,0.072113
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_assists,Under,Jusuf Nurkic,4.5,-154,0.606299,0.09444
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_assists,Over,Payton Pritchard,5.5,110,0.47619,0.074173
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_assists,Under,Payton Pritchard,5.5,-146,0.593496,0.092445
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_assists,Over,Jaylen Brown,5.5,128,0.438596,0.068318
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_assists,Under,Jaylen Brown,5.5,-172,0.632353,0.098498
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_assists,Over,Derrick White,5.5,-102,0.50495,0.078653
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_assists,Under,Derrick White,5.5,-130,0.565217,0.088041
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_assists,Over,Keyonte George,6.5,122,0.45045,0.070164
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_assists,Under,Keyonte George,6.5,-162,0.618321,0.096312
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_assists,Over,Isaiah Collier,7.5,118,0.458716,0.071452
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_assists,Under,Isaiah Collier,7.5,-158,0.612403,0.095391
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Derrick White,19.5,-112,0.528302,0.032927
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Derrick White,19.5,-118,0.541284,0.033736
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Payton Pritchard,17.5,-112,0.528302,0.032927
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Payton Pritchard,17.5,-118,0.541284,0.033736
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Isaiah Collier,9.5,-128,0.561404,0.03499
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Isaiah Collier,9.5,-104,0.509804,0.031774
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Lauri Markkanen,27.5,102,0.49505,0.030854
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Lauri Markkanen,27.5,-136,0.576271,0.035916
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Jaylen Brown,31.5,-120,0.545455,0.033996
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Jaylen Brown,31.5,-110,0.52381,0.032647
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Jordan Walsh,6.5,-102,0.50495,0.031471
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Jordan Walsh,6.5,-130,0.565217,0.035227
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Kyle Filipowski,9.5,-120,0.545455,0.033996
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Kyle Filipowski,9.5,-110,0.52381,0.032647
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Hugo Gonzalez,6.5,-104,0.509804,0.031774
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Hugo Gonzalez,6.5,-128,0.561404,0.03499
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Anfernee Simons,13.5,-102,0.50495,0.031471
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Anfernee Simons,13.5,-130,0.565217,0.035227
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Jusuf Nurkic,10.5,-132,0.568966,0.035461
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Jusuf Nurkic,10.5,100,0.5,0.031163
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Sam Hauser,7.5,102,0.49505,0.030854
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Sam Hauser,7.5,-136,0.576271,0.035916
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Brice Sensabaugh,14.5,100,0.5,0.031163
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Brice Sensabaugh,14.5,-132,0.568966,0.035461
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Neemias Queta,10.5,-114,0.53271,0.033201
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Neemias Queta,10.5,-114,0.53271,0.033201
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Svi Mykhailiuk,7.5,-112,0.528302,0.032927
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Svi Mykhailiuk,7.5,-118,0.541284,0.033736
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Over,Keyonte George,24.5,-108,0.519231,0.032361
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points,Under,Keyonte George,24.5,-122,0.54955,0.034251
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Over,Keyonte George,34.5,-114,0.53271,0.071217
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Under,Keyonte George,34.5,-114,0.53271,0.071217
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Over,Jusuf Nurkic,25.5,-106,0.514563,0.068791
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Under,Jusuf Nurkic,25.5,-125,0.555556,0.074271
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Over,Payton Pritchard,27.5,-112,0.528302,0.070627
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Under,Payton Pritchard,27.5,-118,0.541284,0.072363
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Over,Derrick White,29.5,-114,0.53271,0.071217
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Under,Derrick White,29.5,-114,0.53271,0.071217
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Over,Jaylen Brown,43.5,-114,0.53271,0.071217
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Under,Jaylen Brown,43.5,-114,0.53271,0.071217
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Over,Isaiah Collier,20.5,-102,0.50495,0.067506
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Under,Isaiah Collier,20.5,-130,0.565217,0.075563
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Over,Lauri Markkanen,35.5,-114,0.53271,0.071217
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_points_rebounds_assists,Under,Lauri Markkanen,35.5,-118,0.541284,0.072363
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Over,Lauri Markkanen,2.5,-180,0.642857,0.066765
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Under,Lauri Markkanen,2.5,134,0.42735,0.044383
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Over,Derrick White,3.5,-125,0.555556,0.057698
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Under,Derrick White,3.5,-106,0.514563,0.053441
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Over,Brice Sensabaugh,2.5,-132,0.568966,0.059091
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Under,Brice Sensabaugh,2.5,100,0.5,0.051928
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Over,Sam Hauser,2.5,158,0.387597,0.040254
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Under,Sam Hauser,2.5,-215,0.68254,0.070886
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Over,Payton Pritchard,2.5,-180,0.642857,0.066765
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Under,Payton Pritchard,2.5,134,0.42735,0.044383
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Over,Svi Mykhailiuk,1.5,-152,0.603175,0.062643
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Under,Svi Mykhailiuk,1.5,114,0.46729,0.048531
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Over,Jaylen Brown,1.5,-200,0.666667,0.069237
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Under,Jaylen Brown,1.5,148,0.403226,0.041877
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Over,Keyonte George,2.5,-154,0.606299,0.062968
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Under,Keyonte George,2.5,116,0.462963,0.048082
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Over,Anfernee Simons,2.5,140,0.416667,0.043273
+5748aa8ead4679a8d9afe966bc5e844b,Utah Jazz,Boston Celtics,2025-12-31T02:10:00Z,fanduel,FanDuel,,2025-12-30T17:48:04Z,player_threes,Under,Anfernee Simons,2.5,-188,0.652778,0.067795
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_assists,Over,LeBron James,6.5,-102,0.50495,0.094355
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_assists,Under,LeBron James,6.5,-130,0.565217,0.105616
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_assists,Over,Luka Doncic,7.5,-128,0.561404,0.104904
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_assists,Under,Luka Doncic,7.5,-104,0.509804,0.095262
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_assists,Over,Cade Cunningham,9.5,-118,0.541284,0.101144
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_assists,Under,Cade Cunningham,9.5,-112,0.528302,0.098718
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_assists,Over,Tobias Harris,2.5,140,0.416667,0.077858
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_assists,Under,Tobias Harris,2.5,-188,0.652778,0.121978
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_assists,Over,Marcus Smart,2.5,-104,0.509804,0.095262
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_assists,Under,Marcus Smart,2.5,-128,0.561404,0.104904
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Luka Doncic,33.5,-118,0.541284,0.033736
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Luka Doncic,33.5,-112,0.528302,0.032927
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Ausar Thompson,11.5,-106,0.514563,0.032071
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Ausar Thompson,11.5,-125,0.555556,0.034626
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Deandre Ayton,12.5,-120,0.545455,0.033996
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Deandre Ayton,12.5,-110,0.52381,0.032647
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Duncan Robinson,10.5,-118,0.541284,0.033736
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Duncan Robinson,10.5,-112,0.528302,0.032927
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Jarred Vanderbilt,5.5,-132,0.568966,0.035462
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Jarred Vanderbilt,5.5,100,0.5,0.031163
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Jaxson Hayes,4.5,-132,0.568966,0.035462
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Jaxson Hayes,4.5,100,0.5,0.031163
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Cade Cunningham,26.5,-112,0.528302,0.032927
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Cade Cunningham,26.5,-118,0.541284,0.033736
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Jake LaRavia,10.5,100,0.5,0.031163
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Jake LaRavia,10.5,-132,0.568966,0.035462
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,LeBron James,22.5,-114,0.53271,0.033202
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,LeBron James,22.5,-114,0.53271,0.033202
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Jalen Duren,16.5,-118,0.541284,0.033736
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Jalen Duren,16.5,-112,0.528302,0.032927
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Marcus Smart,9.5,-104,0.509804,0.031774
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Marcus Smart,9.5,-128,0.561404,0.03499
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Tobias Harris,13.5,-104,0.509804,0.031774
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Tobias Harris,13.5,-128,0.561404,0.03499
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Javonte Green,6.5,102,0.49505,0.030855
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Javonte Green,6.5,-136,0.576271,0.035917
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Jaden Ivey,11.5,-112,0.528302,0.032927
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Jaden Ivey,11.5,-118,0.541284,0.033736
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Over,Isaiah Stewart II,8.5,-104,0.509804,0.031774
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points,Under,Isaiah Stewart II,8.5,-128,0.561404,0.03499
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Over,Jaden Ivey,16.5,-110,0.52381,0.054415
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Under,Jaden Ivey,16.5,-120,0.545455,0.056663
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Over,LeBron James,35.5,-108,0.519231,0.053939
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Under,LeBron James,35.5,-122,0.54955,0.057089
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Over,Marcus Smart,14.5,-118,0.541284,0.05623
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Under,Marcus Smart,14.5,-112,0.528302,0.054882
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Over,Cade Cunningham,42.5,-106,0.514563,0.053454
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Under,Cade Cunningham,42.5,-125,0.555556,0.057713
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Over,Luka Doncic,49.5,-112,0.528302,0.054882
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Under,Luka Doncic,49.5,-118,0.541284,0.05623
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Over,Jalen Duren,29.5,-118,0.541284,0.05623
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Under,Jalen Duren,29.5,-112,0.528302,0.054882
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Over,Tobias Harris,19.5,-118,0.541284,0.05623
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Under,Tobias Harris,19.5,-112,0.528302,0.054882
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Over,Jake LaRavia,16.5,-125,0.555556,0.057713
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Under,Jake LaRavia,16.5,-106,0.514563,0.053454
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Over,Ausar Thompson,18.5,-118,0.541284,0.05623
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_points_rebounds_assists,Under,Ausar Thompson,18.5,-112,0.528302,0.054882
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Over,Tobias Harris,1.5,136,0.423729,0.049464
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Under,Tobias Harris,1.5,-186,0.65035,0.075919
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Over,LeBron James,1.5,-136,0.576271,0.067271
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Under,LeBron James,1.5,102,0.49505,0.05779
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Over,Cade Cunningham,2.5,130,0.434783,0.050754
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Under,Cade Cunningham,2.5,-174,0.635036,0.074131
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Over,Marcus Smart,1.5,-146,0.593496,0.069282
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Under,Marcus Smart,1.5,110,0.47619,0.055588
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Over,Luka Doncic,3.5,-130,0.565217,0.065981
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Under,Luka Doncic,3.5,-102,0.50495,0.058946
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Over,Duncan Robinson,2.5,-144,0.590164,0.068893
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Under,Duncan Robinson,2.5,108,0.480769,0.056123
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Over,Jake LaRavia,1.5,118,0.458716,0.053548
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Under,Jake LaRavia,1.5,-158,0.612403,0.071489
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Over,Jaden Ivey,1.5,116,0.462963,0.054044
+12a69f98068c9e1b277528c3f7dfed72,Los Angeles Lakers,Detroit Pistons,2025-12-31T03:40:00Z,fanduel,FanDuel,,2025-12-30T17:47:20Z,player_threes,Under,Jaden Ivey,1.5,-154,0.606299,0.070777
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_assists,Over,Dennis Schroder,4.5,-114,0.53271,0.083004
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_assists,Under,Dennis Schroder,4.5,-114,0.53271,0.083004
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_assists,Over,James Harden,8.5,110,0.47619,0.074198
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_assists,Under,James Harden,8.5,-146,0.593496,0.092476
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_assists,Over,Russell Westbrook,7.5,114,0.46729,0.072811
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_assists,Under,Russell Westbrook,7.5,-152,0.603175,0.093984
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_assists,Over,DeMar DeRozan,3.5,-136,0.576271,0.089792
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_assists,Under,DeMar DeRozan,3.5,102,0.49505,0.077136
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_assists,Over,Kris Dunn,3.5,104,0.490196,0.07638
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_assists,Under,Kris Dunn,3.5,-138,0.579832,0.090346
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_assists,Over,Kawhi Leonard,3.5,-172,0.632353,0.09853
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_assists,Under,Kawhi Leonard,3.5,128,0.438596,0.06834
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,Russell Westbrook,15.5,-120,0.545455,0.036447
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,Russell Westbrook,15.5,-110,0.52381,0.035001
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,Nicolas Batum,5.5,-132,0.568966,0.038018
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,Nicolas Batum,5.5,100,0.5,0.03341
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,Kawhi Leonard,29.5,-114,0.53271,0.035595
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,Kawhi Leonard,29.5,-114,0.53271,0.035595
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,Derrick Jones,7.5,-102,0.50495,0.03374
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,Derrick Jones,7.5,-130,0.565217,0.037767
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,DeMar DeRozan,19.5,100,0.5,0.03341
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,DeMar DeRozan,19.5,-132,0.568966,0.038018
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,Keegan Murray,14.5,102,0.49505,0.033079
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,Keegan Murray,14.5,-136,0.576271,0.038506
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,Brook Lopez,12.5,-102,0.50495,0.03374
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,Brook Lopez,12.5,-130,0.565217,0.037767
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,Nique Clifford,7.5,-118,0.541284,0.036168
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,Nique Clifford,7.5,-112,0.528302,0.035301
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,Kris Dunn,7.5,-132,0.568966,0.038018
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,Kris Dunn,7.5,100,0.5,0.03341
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,Dennis Schroder,11.5,100,0.5,0.03341
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,Dennis Schroder,11.5,-132,0.568966,0.038018
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,James Harden,26.5,-130,0.565217,0.037767
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,James Harden,26.5,-102,0.50495,0.03374
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,John Collins,12.5,-118,0.541284,0.036168
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,John Collins,12.5,-112,0.528302,0.035301
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,Maxime Raynaud,14.5,-108,0.519231,0.034695
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,Maxime Raynaud,14.5,-122,0.54955,0.03672
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Over,Precious Achiuwa,6.5,-114,0.53271,0.035595
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points,Under,Precious Achiuwa,6.5,-114,0.53271,0.035595
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Over,Keegan Murray,21.5,-110,0.52381,0.061263
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Under,Keegan Murray,21.5,-120,0.545455,0.063795
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Over,DeMar DeRozan,26.5,-118,0.541284,0.063307
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Under,DeMar DeRozan,26.5,-112,0.528302,0.061788
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Over,Kris Dunn,15.5,100,0.5,0.058478
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Under,Kris Dunn,15.5,-132,0.568966,0.066544
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Over,Dennis Schroder,18.5,-114,0.53271,0.062304
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Under,Dennis Schroder,18.5,-114,0.53271,0.062304
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Over,James Harden,40.5,-122,0.54955,0.064273
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Under,James Harden,40.5,-108,0.519231,0.060727
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Over,Maxime Raynaud,24.5,-122,0.54955,0.064273
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Under,Maxime Raynaud,24.5,-108,0.519231,0.060727
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Over,Russell Westbrook,29.5,-120,0.545455,0.063795
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Under,Russell Westbrook,29.5,-110,0.52381,0.061263
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Over,Kawhi Leonard,42.5,-106,0.514563,0.060182
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_points_rebounds_assists,Under,Kawhi Leonard,42.5,-125,0.555556,0.064976
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Over,Dennis Schroder,1.5,138,0.420168,0.049077
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Under,Dennis Schroder,1.5,-186,0.65035,0.075964
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Over,James Harden,3.5,108,0.480769,0.056156
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Under,James Harden,3.5,-144,0.590164,0.068934
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Over,Keegan Murray,1.5,-154,0.606299,0.070818
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Under,Keegan Murray,1.5,116,0.462963,0.054076
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Over,Nicolas Batum,1.5,-118,0.541284,0.063224
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Under,Nicolas Batum,1.5,-112,0.528302,0.061708
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Over,Kris Dunn,1.5,134,0.42735,0.049916
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Under,Kris Dunn,1.5,-180,0.642857,0.075089
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Over,Brook Lopez,2.5,134,0.42735,0.049916
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Under,Brook Lopez,2.5,-180,0.642857,0.075089
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Over,Kawhi Leonard,2.5,-125,0.555556,0.064891
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Under,Kawhi Leonard,2.5,-106,0.514563,0.060103
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Over,Russell Westbrook,1.5,-166,0.62406,0.072893
+80726b18a644735592fda8cea0575612,Los Angeles Clippers,Sacramento Kings,2025-12-31T04:10:00Z,fanduel,FanDuel,,2025-12-30T17:47:28Z,player_threes,Under,Russell Westbrook,1.5,124,0.446429,0.052145
