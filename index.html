@@ -9,7 +9,6 @@
     :root{
       --bg:#0b0f14; --panel:#111826; --text:#e7edf5; --muted:#a9b9cd;
       --border:#223044; --novig:#7d5cff; --hover:#162235;
-      --chip:#1b2a41;
     }
     body{
       margin:0; background:var(--bg); color:var(--text);
@@ -25,41 +24,72 @@
     .wrap{ padding:14px 18px 28px; }
 
     .controls{
-      display:flex; flex-wrap:wrap; gap:10px;
-      background:var(--panel); border:1px solid var(--border);
-      border-radius:14px; padding:12px;
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:10px;
+      background:var(--panel);
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:12px;
+    }
+
+    .row{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
       align-items:center;
     }
-    .pill{
+
+    .field{
       display:flex; align-items:center; gap:10px;
       border:1px solid var(--border);
-      border-radius:999px; padding:8px 12px;
+      border-radius:999px;
+      padding:10px 12px;
       background:rgba(255,255,255,0.02);
       flex: 1 1 260px;
-      min-width: 240px;
+      min-width: 220px;
     }
-    label{ font-size:13px; color:var(--muted); white-space:nowrap; }
-    input, select{
-      background:transparent; border:0; color:var(--text);
-      font-size:14px; outline:none;
+    .field label{
+      font-size:13px;
+      color:var(--muted);
+      white-space:nowrap;
+    }
+    .field input, .field select{
+      background:transparent;
+      border:0;
+      color:var(--text);
+      font-size:14px;
+      outline:none;
       width:100%;
       min-width:0;
+      appearance:none;
     }
-    .rowpill{
-      flex: 0 0 auto;
-      min-width:auto;
-    }
+
     button{
       border:1px solid var(--border);
       background:rgba(255,255,255,0.04);
       color:var(--text);
-      padding:10px 12px; border-radius:10px;
-      cursor:pointer; font-size:14px;
+      padding:10px 12px;
+      border-radius:10px;
+      cursor:pointer;
+      font-size:14px;
+    }
+    .btnrow{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .btnrow button{
+      flex: 1 1 180px;
     }
 
     .meta{
-      margin-top:12px; font-size:14px; color:var(--muted);
-      display:flex; gap:14px; flex-wrap:wrap;
+      margin-top:12px;
+      font-size:14px;
+      color:var(--muted);
+      display:flex;
+      gap:14px;
+      flex-wrap:wrap;
       align-items:center;
     }
     .status-ok{ color:#8be28b; }
@@ -106,11 +136,11 @@
       border-left:3px solid var(--novig);
     }
 
-    th.col-market, td.col-market { width: 180px; }
+    th.col-market, td.col-market { width: 190px; }
     th.col-player, td.col-player { width: 260px; }
     th.col-outcome, td.col-outcome { width: 110px; }
     th.col-novig, td.col-novig { width: 140px; }
-    th.col-team, td.col-team { width: 180px; }
+    th.col-team, td.col-team { width: 190px; }
 
     /* ===== Mobile cards ===== */
     .cards{ display:none; margin-top:14px; }
@@ -130,7 +160,7 @@
     }
     .card-title{
       font-size:16px;
-      font-weight:700;
+      font-weight:750;
       line-height:1.2;
     }
     .chip{
@@ -160,17 +190,16 @@
       border-radius:12px;
       background:linear-gradient(90deg, rgba(125,92,255,.25), rgba(125,92,255,.08));
       border:1px solid rgba(125,92,255,.35);
-      font-weight:700;
+      font-weight:750;
+      text-align:center;
     }
 
-    /* Switch to cards on small screens */
     @media (max-width: 720px){
       .table-wrap{ display:none; }
       .cards{ display:block; }
       h1{ font-size:18px; }
       .sub{ font-size:13px; }
-      .pill{ flex: 1 1 100%; min-width: 0; }
-      button{ width:100%; }
+      .field{ min-width: 0; flex: 1 1 100%; }
     }
   </style>
 </head>
@@ -178,29 +207,58 @@
 <body>
   <header>
     <h1>FanDuel Player Props Viewer</h1>
-    <div class="sub">Auto-loads latest CSV • No-vig highlighted • Mobile-friendly</div>
+    <div class="sub">Search + filters • No-vig highlighted • Mobile friendly</div>
   </header>
 
   <div class="wrap">
     <div class="controls">
-      <div class="pill">
-        <label>Search</label>
-        <input id="search" placeholder="player, market, team…" />
+      <div class="row">
+        <div class="field">
+          <label>Search</label>
+          <input id="q" placeholder="Player, market, team…" autocomplete="off" />
+        </div>
+
+        <div class="field" style="flex:0 0 auto; min-width:170px;">
+          <label>Rows</label>
+          <select id="rows">
+            <option>25</option>
+            <option selected>50</option>
+            <option>100</option>
+            <option>250</option>
+            <option value="1000000">All</option>
+          </select>
+        </div>
       </div>
 
-      <div class="pill rowpill">
-        <label>Rows</label>
-        <select id="rows">
-          <option>25</option>
-          <option selected>50</option>
-          <option>100</option>
-          <option>250</option>
-          <option value="1000000">All</option>
-        </select>
+      <div class="row">
+        <div class="field">
+          <label>Market</label>
+          <select id="market">
+            <option value="">All</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Team</label>
+          <select id="team">
+            <option value="">All</option>
+          </select>
+        </div>
+
+        <div class="field" style="flex:0 0 auto; min-width:190px;">
+          <label>Outcome</label>
+          <select id="outcome">
+            <option value="">All</option>
+            <option value="over">Over</option>
+            <option value="under">Under</option>
+          </select>
+        </div>
       </div>
 
-      <button id="download">Download filtered CSV</button>
-      <button id="reset">Reset</button>
+      <div class="btnrow">
+        <button id="download">Download filtered CSV</button>
+        <button id="clear">Clear filters</button>
+      </div>
     </div>
 
     <div class="meta">
@@ -228,14 +286,14 @@
 /* ================== CONFIG ================== */
 const CSV_URL = "cleaned_props.csv";
 
-/* Show these columns only */
+/* Display columns (labels have NO underscores) */
 const DISPLAY = [
   { key: "market", label: "Market", cls: "col-market" },
-  { key: "description", label: "Player", cls: "col-player" }, // rename description -> Player
+  { key: "description", label: "Player", cls: "col-player" }, // description -> Player
   { key: "outcome", label: "Outcome", cls: "col-outcome" },
   { key: "no_vig_prob", label: "No Vig %", cls: "col-novig", novig: true },
-  { key: "home_team", label: "Home", cls: "col-team" },
-  { key: "away_team", label: "Away", cls: "col-team" },
+  { key: "home_team", label: "Home Team", cls: "col-team" },
+  { key: "away_team", label: "Away Team", cls: "col-team" },
 ];
 
 /* ================== CSV PARSER ================== */
@@ -281,20 +339,75 @@ function formatCell(key, val){
   return (val ?? "").toString();
 }
 
-function apply(){
-  const q=document.getElementById("search").value.trim().toLowerCase();
-  filtered = !q ? [...data] : data.filter(r =>
-    DISPLAY.some(col => String(r[col.key] ?? "").toLowerCase().includes(q))
-  );
-  if(sortKey){
-    filtered.sort((a,b)=>sortDir*compare(a[sortKey], b[sortKey]));
-  }
+function escapeHtml(s){
+  return String(s ?? "")
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
 }
 
 function setStatus(msg, cls){
   const el=document.getElementById("status");
   el.className = cls || "";
   el.textContent = msg;
+}
+
+function uniqSorted(arr){
+  return Array.from(new Set(arr.filter(Boolean))).sort((a,b)=>
+    a.localeCompare(b, undefined, {numeric:true, sensitivity:"base"})
+  );
+}
+
+function populateSelect(selectEl, values){
+  const cur = selectEl.value;
+  // Keep first option (All)
+  const first = selectEl.querySelector("option[value='']");
+  selectEl.innerHTML = "";
+  selectEl.appendChild(first);
+  for(const v of values){
+    const opt=document.createElement("option");
+    opt.value = v;
+    opt.textContent = v.replaceAll("_", " "); // just in case market names have underscores
+    selectEl.appendChild(opt);
+  }
+  // restore if still present
+  if ([...selectEl.options].some(o => o.value === cur)) selectEl.value = cur;
+  else selectEl.value = "";
+}
+
+/* ================== FILTERING ================== */
+function apply(){
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const market = document.getElementById("market").value;
+  const team = document.getElementById("team").value;
+  const outcome = document.getElementById("outcome").value; // over/under
+
+  filtered = data.filter(r => {
+    // Market filter
+    if (market && r.market !== market) return false;
+
+    // Outcome filter
+    if (outcome && String(r.outcome ?? "").toLowerCase() !== outcome) return false;
+
+    // Team filter (matches home or away)
+    if (team && r.home_team !== team && r.away_team !== team) return false;
+
+    // Search (across key fields)
+    if (q){
+      const hay = [
+        r.description, r.market, r.home_team, r.away_team, r.outcome
+      ].map(x => String(x ?? "").toLowerCase()).join(" | ");
+      if (!hay.includes(q)) return false;
+    }
+
+    return true;
+  });
+
+  if(sortKey){
+    filtered.sort((a,b)=>sortDir*compare(a[sortKey], b[sortKey]));
+  }
 }
 
 /* ================== RENDER ================== */
@@ -318,12 +431,12 @@ function renderCards(view){
     const card=document.createElement("div");
     card.className="card";
 
-    const player = formatCell("description", r["description"]);
-    const market = formatCell("market", r["market"]);
-    const outcome = formatCell("outcome", r["outcome"]);
-    const novig = formatCell("no_vig_prob", r["no_vig_prob"]);
-    const home = formatCell("home_team", r["home_team"]);
-    const away = formatCell("away_team", r["away_team"]);
+    const player = formatCell("description", r.description);
+    const market = formatCell("market", r.market).replaceAll("_"," ");
+    const outcome = formatCell("outcome", r.outcome);
+    const novig = formatCell("no_vig_prob", r.no_vig_prob);
+    const home = formatCell("home_team", r.home_team);
+    const away = formatCell("away_team", r.away_team);
 
     card.innerHTML = `
       <div class="card-top">
@@ -340,11 +453,11 @@ function renderCards(view){
           <div class="v novigv">${escapeHtml(novig)}</div>
         </div>
         <div class="kv">
-          <div class="k">Home</div>
+          <div class="k">Home Team</div>
           <div class="v">${escapeHtml(home)}</div>
         </div>
         <div class="kv">
-          <div class="k">Away</div>
+          <div class="k">Away Team</div>
           <div class="v">${escapeHtml(away)}</div>
         </div>
       </div>
@@ -365,15 +478,6 @@ function render(){
   document.getElementById("shown").textContent=filtered.length;
 }
 
-function escapeHtml(s){
-  return String(s ?? "")
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;")
-    .replaceAll('"',"&quot;")
-    .replaceAll("'","&#039;");
-}
-
 /* ================== LOAD CSV ================== */
 fetch(CSV_URL, { cache: "no-store" })
   .then(r => {
@@ -386,14 +490,12 @@ fetch(CSV_URL, { cache: "no-store" })
     const headerSet = new Set(headers);
 
     // Validate required columns exist
-    const missing = DISPLAY
-      .map(c => c.key)
-      .filter(k => !headerSet.has(k));
-
-    if(missing.length){
+    const needed = ["market","description","outcome","no_vig_prob","home_team","away_team"];
+    const missing = needed.filter(k => !headerSet.has(k));
+    if (missing.length){
       setStatus("Missing columns in CSV: " + missing.join(", "), "status-err");
     } else {
-      setStatus("Loaded ✓ (No-vig found: no_vig_prob)", "status-ok");
+      setStatus("Loaded ✓", "status-ok");
     }
 
     data = rows.slice(1)
@@ -404,12 +506,19 @@ fetch(CSV_URL, { cache: "no-store" })
         return o;
       });
 
-    // Build desktop header
+    // Populate dropdown filters from data
+    const markets = uniqSorted(data.map(r => r.market));
+    const teams = uniqSorted(data.flatMap(r => [r.home_team, r.away_team]));
+
+    populateSelect(document.getElementById("market"), markets);
+    populateSelect(document.getElementById("team"), teams);
+
+    // Build desktop header (sortable)
     thead.innerHTML="";
     const tr=document.createElement("tr");
     DISPLAY.forEach(col=>{
       const th=document.createElement("th");
-      th.textContent=col.label;
+      th.textContent = col.label;
       th.className = col.cls + (col.novig ? " novig" : "");
       th.onclick=()=>{
         sortDir = sortKey===col.key ? -sortDir : 1;
@@ -425,11 +534,18 @@ fetch(CSV_URL, { cache: "no-store" })
   .catch(e => setStatus("Failed to load CSV: " + e.message, "status-err"));
 
 /* ================== EVENTS ================== */
-document.getElementById("search").oninput=render;
-document.getElementById("rows").onchange=render;
-document.getElementById("reset").onclick=()=>{
-  document.getElementById("search").value="";
-  sortKey=null; sortDir=1; render();
+["q","market","team","outcome","rows"].forEach(id => {
+  document.getElementById(id).addEventListener("input", render);
+  document.getElementById(id).addEventListener("change", render);
+});
+
+document.getElementById("clear").onclick = () => {
+  document.getElementById("q").value = "";
+  document.getElementById("market").value = "";
+  document.getElementById("team").value = "";
+  document.getElementById("outcome").value = "";
+  sortKey=null; sortDir=1;
+  render();
 };
 
 document.getElementById("download").onclick=()=>{
