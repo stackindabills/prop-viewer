@@ -3,71 +3,88 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>FanDuel Props Viewer (No-Vig Highlight)</title>
+  <title>FanDuel Props Viewer</title>
 
   <style>
     :root{
-      --bg:#0b0f14; --panel:#111826; --text:#e7edf5; --muted:#9fb0c3;
+      --bg:#0b0f14; --panel:#111826; --text:#e7edf5; --muted:#a9b9cd;
       --border:#223044; --novig:#7d5cff; --hover:#162235;
+      --chip:#1b2a41;
     }
     body{
       margin:0; background:var(--bg); color:var(--text);
       font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
     }
     header{
-      padding:18px 22px;
+      padding:16px 18px;
       border-bottom:1px solid var(--border);
     }
-    h1{ margin:0 0 4px; font-size:18px; }
-    .sub{ color:var(--muted); font-size:13px; }
+    h1{ margin:0 0 6px; font-size:20px; letter-spacing:.2px; }
+    .sub{ color:var(--muted); font-size:14px; line-height:1.35; }
 
-    .wrap{ padding:16px 22px 30px; }
+    .wrap{ padding:14px 18px 28px; }
 
     .controls{
       display:flex; flex-wrap:wrap; gap:10px;
       background:var(--panel); border:1px solid var(--border);
-      border-radius:12px; padding:12px;
+      border-radius:14px; padding:12px;
+      align-items:center;
     }
     .pill{
-      display:flex; align-items:center; gap:8px;
+      display:flex; align-items:center; gap:10px;
       border:1px solid var(--border);
-      border-radius:999px; padding:6px 10px;
+      border-radius:999px; padding:8px 12px;
       background:rgba(255,255,255,0.02);
+      flex: 1 1 260px;
+      min-width: 240px;
     }
-    label{ font-size:12px; color:var(--muted); }
+    label{ font-size:13px; color:var(--muted); white-space:nowrap; }
     input, select{
       background:transparent; border:0; color:var(--text);
-      font-size:12px; outline:none;
+      font-size:14px; outline:none;
+      width:100%;
+      min-width:0;
+    }
+    .rowpill{
+      flex: 0 0 auto;
+      min-width:auto;
     }
     button{
       border:1px solid var(--border);
       background:rgba(255,255,255,0.04);
       color:var(--text);
-      padding:6px 10px; border-radius:8px;
-      cursor:pointer; font-size:12px;
+      padding:10px 12px; border-radius:10px;
+      cursor:pointer; font-size:14px;
     }
 
     .meta{
-      margin-top:10px; font-size:12px; color:var(--muted);
-      display:flex; gap:16px; flex-wrap:wrap;
+      margin-top:12px; font-size:14px; color:var(--muted);
+      display:flex; gap:14px; flex-wrap:wrap;
+      align-items:center;
     }
+    .status-ok{ color:#8be28b; }
+    .status-warn{ color:#ffcf66; }
+    .status-err{ color:#ff7a7a; }
 
+    /* ===== Desktop table ===== */
     .table-wrap{
       margin-top:14px;
       border:1px solid var(--border);
-      border-radius:12px;
+      border-radius:14px;
       background:var(--panel);
       overflow:hidden;
     }
     table{
-      width:100%; border-collapse:collapse; table-layout:fixed;
+      width:100%;
+      border-collapse:collapse;
+      table-layout:fixed;
     }
     thead th{
       position:sticky; top:0;
       background:#111826;
       color:var(--muted);
-      font-size:12px;
-      padding:8px 10px;
+      font-size:14px;
+      padding:12px 12px;
       border-bottom:1px solid var(--border);
       cursor:pointer;
       white-space:nowrap;
@@ -75,8 +92,8 @@
       text-overflow:ellipsis;
     }
     tbody td{
-      padding:8px 10px;
-      font-size:12px;
+      padding:12px 12px;
+      font-size:15px;
       border-top:1px solid rgba(34,48,68,.5);
       white-space:nowrap;
       overflow:hidden;
@@ -85,13 +102,75 @@
     tbody tr:hover td{ background:var(--hover); }
 
     .novig{
-      background:linear-gradient(
-        90deg,
-        rgba(125,92,255,.22),
-        rgba(125,92,255,.06)
-      );
-      border-left:2px solid var(--novig);
-      border-right:2px solid rgba(125,92,255,.35);
+      background:linear-gradient(90deg, rgba(125,92,255,.22), rgba(125,92,255,.06));
+      border-left:3px solid var(--novig);
+    }
+
+    th.col-market, td.col-market { width: 180px; }
+    th.col-player, td.col-player { width: 260px; }
+    th.col-outcome, td.col-outcome { width: 110px; }
+    th.col-novig, td.col-novig { width: 140px; }
+    th.col-team, td.col-team { width: 180px; }
+
+    /* ===== Mobile cards ===== */
+    .cards{ display:none; margin-top:14px; }
+    .card{
+      border:1px solid var(--border);
+      background:var(--panel);
+      border-radius:14px;
+      padding:12px;
+      margin-bottom:10px;
+    }
+    .card-top{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:10px;
+      margin-bottom:10px;
+    }
+    .card-title{
+      font-size:16px;
+      font-weight:700;
+      line-height:1.2;
+    }
+    .chip{
+      font-size:12px;
+      color:var(--muted);
+      padding:4px 8px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,0.02);
+      white-space:nowrap;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:10px;
+    }
+    .kv{
+      display:flex;
+      flex-direction:column;
+      gap:3px;
+      min-width:0;
+    }
+    .k{ font-size:12px; color:var(--muted); }
+    .v{ font-size:15px; overflow:hidden; text-overflow:ellipsis; }
+    .v.novigv{
+      padding:8px 10px;
+      border-radius:12px;
+      background:linear-gradient(90deg, rgba(125,92,255,.25), rgba(125,92,255,.08));
+      border:1px solid rgba(125,92,255,.35);
+      font-weight:700;
+    }
+
+    /* Switch to cards on small screens */
+    @media (max-width: 720px){
+      .table-wrap{ display:none; }
+      .cards{ display:block; }
+      h1{ font-size:18px; }
+      .sub{ font-size:13px; }
+      .pill{ flex: 1 1 100%; min-width: 0; }
+      button{ width:100%; }
     }
   </style>
 </head>
@@ -99,7 +178,7 @@
 <body>
   <header>
     <h1>FanDuel Player Props Viewer</h1>
-    <div class="sub">Auto-loads latest CSV • No-vig price highlighted</div>
+    <div class="sub">Auto-loads latest CSV • No-vig highlighted • Mobile-friendly</div>
   </header>
 
   <div class="wrap">
@@ -108,7 +187,8 @@
         <label>Search</label>
         <input id="search" placeholder="player, market, team…" />
       </div>
-      <div class="pill">
+
+      <div class="pill rowpill">
         <label>Rows</label>
         <select id="rows">
           <option>25</option>
@@ -118,6 +198,7 @@
           <option value="1000000">All</option>
         </select>
       </div>
+
       <button id="download">Download filtered CSV</button>
       <button id="reset">Reset</button>
     </div>
@@ -126,9 +207,10 @@
       <div>Source: <strong id="file">cleaned_props.csv</strong></div>
       <div>Rows: <strong id="total">0</strong></div>
       <div>Showing: <strong id="shown">0</strong></div>
-      <div id="status"></div>
+      <div id="status" class="status-warn"></div>
     </div>
 
+    <!-- Desktop -->
     <div class="table-wrap">
       <div style="max-height:72vh; overflow:auto;">
         <table>
@@ -137,11 +219,24 @@
         </table>
       </div>
     </div>
+
+    <!-- Mobile -->
+    <div id="cards" class="cards"></div>
   </div>
 
 <script>
 /* ================== CONFIG ================== */
-const CSV_URL = "cleaned_props.csv";  // <-- GitHub Actions updates this daily
+const CSV_URL = "cleaned_props.csv";
+
+/* Show these columns only */
+const DISPLAY = [
+  { key: "market", label: "Market", cls: "col-market" },
+  { key: "description", label: "Player", cls: "col-player" }, // rename description -> Player
+  { key: "outcome", label: "Outcome", cls: "col-outcome" },
+  { key: "no_vig_prob", label: "No Vig %", cls: "col-novig", novig: true },
+  { key: "home_team", label: "Home", cls: "col-team" },
+  { key: "away_team", label: "Away", cls: "col-team" },
+];
 
 /* ================== CSV PARSER ================== */
 function parseCSV(text){
@@ -165,96 +260,193 @@ function parseCSV(text){
 
 /* ================== STATE ================== */
 let headers=[], data=[], filtered=[];
-let sortCol=null, sortDir=1, novigCol=null;
+let sortKey=null, sortDir=1;
 
 const thead=document.querySelector("thead");
 const tbody=document.querySelector("tbody");
+const cards=document.getElementById("cards");
 
 /* ================== HELPERS ================== */
-function detectNoVig(cols){
-  return cols.find(c=>c.toLowerCase()==="no_vig_price_american_fair")
-      || cols.find(c=>c.toLowerCase().includes("no_vig") && c.toLowerCase().includes("price"));
-}
-
 function compare(a,b){
   const na=Number(a), nb=Number(b);
   if(!isNaN(na)&&!isNaN(nb)) return na-nb;
-  return String(a).localeCompare(String(b),undefined,{numeric:true});
+  return String(a ?? "").localeCompare(String(b ?? ""), undefined, {numeric:true, sensitivity:"base"});
+}
+
+function formatCell(key, val){
+  if(key === "no_vig_prob"){
+    const n = Number(val);
+    if(!isNaN(n)) return (n * 100).toFixed(2) + "%";
+  }
+  return (val ?? "").toString();
 }
 
 function apply(){
-  const q=document.getElementById("search").value.toLowerCase();
+  const q=document.getElementById("search").value.trim().toLowerCase();
   filtered = !q ? [...data] : data.filter(r =>
-    headers.some(h => String(r[h]).toLowerCase().includes(q))
+    DISPLAY.some(col => String(r[col.key] ?? "").toLowerCase().includes(q))
   );
-  if(sortCol)
-    filtered.sort((a,b)=>sortDir*compare(a[sortCol],b[sortCol]));
+  if(sortKey){
+    filtered.sort((a,b)=>sortDir*compare(a[sortKey], b[sortKey]));
+  }
+}
+
+function setStatus(msg, cls){
+  const el=document.getElementById("status");
+  el.className = cls || "";
+  el.textContent = msg;
 }
 
 /* ================== RENDER ================== */
+function renderTable(view){
+  tbody.innerHTML="";
+  for(const r of view){
+    const tr=document.createElement("tr");
+    for(const col of DISPLAY){
+      const td=document.createElement("td");
+      td.className = col.cls + (col.novig ? " novig col-novig" : "");
+      td.textContent = formatCell(col.key, r[col.key]);
+      tr.appendChild(td);
+    }
+    tbody.appendChild(tr);
+  }
+}
+
+function renderCards(view){
+  cards.innerHTML="";
+  for(const r of view){
+    const card=document.createElement("div");
+    card.className="card";
+
+    const player = formatCell("description", r["description"]);
+    const market = formatCell("market", r["market"]);
+    const outcome = formatCell("outcome", r["outcome"]);
+    const novig = formatCell("no_vig_prob", r["no_vig_prob"]);
+    const home = formatCell("home_team", r["home_team"]);
+    const away = formatCell("away_team", r["away_team"]);
+
+    card.innerHTML = `
+      <div class="card-top">
+        <div class="card-title">${escapeHtml(player)}</div>
+        <div class="chip">${escapeHtml(market)}</div>
+      </div>
+      <div class="grid">
+        <div class="kv">
+          <div class="k">Outcome</div>
+          <div class="v">${escapeHtml(outcome)}</div>
+        </div>
+        <div class="kv">
+          <div class="k">No Vig</div>
+          <div class="v novigv">${escapeHtml(novig)}</div>
+        </div>
+        <div class="kv">
+          <div class="k">Home</div>
+          <div class="v">${escapeHtml(home)}</div>
+        </div>
+        <div class="kv">
+          <div class="k">Away</div>
+          <div class="v">${escapeHtml(away)}</div>
+        </div>
+      </div>
+    `;
+    cards.appendChild(card);
+  }
+}
+
 function render(){
   apply();
   const limit=Number(document.getElementById("rows").value);
   const view=filtered.slice(0,limit);
 
-  tbody.innerHTML="";
-  for(const r of view){
-    const tr=document.createElement("tr");
-    headers.forEach(h=>{
-      const td=document.createElement("td");
-      td.textContent=r[h]??"";
-      if(h===novigCol) td.classList.add("novig");
-      tr.appendChild(td);
-    });
-    tbody.appendChild(tr);
-  }
+  renderTable(view);
+  renderCards(view);
 
   document.getElementById("total").textContent=data.length;
   document.getElementById("shown").textContent=filtered.length;
 }
 
+function escapeHtml(s){
+  return String(s ?? "")
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+}
+
 /* ================== LOAD CSV ================== */
 fetch(CSV_URL, { cache: "no-store" })
-  .then(r => r.text())
+  .then(r => {
+    if(!r.ok) throw new Error(`HTTP ${r.status} fetching ${CSV_URL}`);
+    return r.text();
+  })
   .then(text => {
     const rows=parseCSV(text);
-    headers=rows[0];
-    data = rows.slice(1).map(r=>{
-      const o={}; headers.forEach((h,i)=>o[h]=r[i]??""); return o;
-    });
-    novigCol=detectNoVig(headers);
+    headers=(rows[0] || []).map(h => (h ?? "").trim());
+    const headerSet = new Set(headers);
 
+    // Validate required columns exist
+    const missing = DISPLAY
+      .map(c => c.key)
+      .filter(k => !headerSet.has(k));
+
+    if(missing.length){
+      setStatus("Missing columns in CSV: " + missing.join(", "), "status-err");
+    } else {
+      setStatus("Loaded ✓ (No-vig found: no_vig_prob)", "status-ok");
+    }
+
+    data = rows.slice(1)
+      .filter(r => r && r.some(x => String(x ?? "").trim() !== ""))
+      .map(r=>{
+        const o={};
+        headers.forEach((h,i)=>o[h]=r[i] ?? "");
+        return o;
+      });
+
+    // Build desktop header
     thead.innerHTML="";
     const tr=document.createElement("tr");
-    headers.forEach(h=>{
+    DISPLAY.forEach(col=>{
       const th=document.createElement("th");
-      th.textContent=h;
-      if(h===novigCol) th.classList.add("novig");
+      th.textContent=col.label;
+      th.className = col.cls + (col.novig ? " novig" : "");
       th.onclick=()=>{
-        sortDir = sortCol===h ? -sortDir : 1;
-        sortCol=h; render();
+        sortDir = sortKey===col.key ? -sortDir : 1;
+        sortKey = col.key;
+        render();
       };
       tr.appendChild(th);
     });
     thead.appendChild(tr);
 
     render();
-    document.getElementById("status").textContent =
-      novigCol ? `No-vig column: ${novigCol}` : "No-vig column not found";
-  });
+  })
+  .catch(e => setStatus("Failed to load CSV: " + e.message, "status-err"));
 
 /* ================== EVENTS ================== */
 document.getElementById("search").oninput=render;
 document.getElementById("rows").onchange=render;
 document.getElementById("reset").onclick=()=>{
   document.getElementById("search").value="";
-  sortCol=null; sortDir=1; render();
+  sortKey=null; sortDir=1; render();
 };
+
 document.getElementById("download").onclick=()=>{
   apply();
-  const csv=[headers.join(",")]
-    .concat(filtered.map(r=>headers.map(h=>`"${String(r[h]).replace(/"/g,'""')}"`).join(",")))
-    .join("\n");
+  const outHeaders = DISPLAY.map(c => c.label);
+  const outKeys = DISPLAY.map(c => c.key);
+
+  const esc = (s) => {
+    const v = String(s ?? "");
+    return /[",\n]/.test(v) ? `"${v.replace(/"/g,'""')}"` : v;
+  };
+
+  const csv = [
+    outHeaders.map(esc).join(","),
+    ...filtered.map(r => outKeys.map(k => esc(formatCell(k, r[k]))).join(","))
+  ].join("\n");
+
   const blob=new Blob([csv],{type:"text/csv"});
   const a=document.createElement("a");
   a.href=URL.createObjectURL(blob);
