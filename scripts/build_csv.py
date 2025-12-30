@@ -1,27 +1,28 @@
 """
 Fetch NBA player prop markets and produce FanDuel-only outputs.
 
-This script fetches per-event player prop odds from The Odds API v4, flattens
-bookmakers/markets/outcomes into rows, filters for FanDuel bookmaker rows, and
-writes both FanDuel-only JSON/CSV and a flattened JSON for reuse.
-
-Also writes a stable CSV name `cleaned_props.csv` for GitHub Pages / viewer usage.
-
-Usage:
-  - Set DRAFT_ODDS_API_KEY in your environment (required).
-  - Optionally set DRAFT_ODDS_BASE_URL.
-  - Run: python scripts/build_csv.py (or wherever you place it)
+Key features:
+- Requires DRAFT_ODDS_API_KEY via environment variable
+- Fetches NBA player props from The Odds API v4
+- Filters FanDuel only
+- Keeps Over/Under only
+- Recomputes NO-VIG PROBABILITY correctly per Over/Under PAIR
+- Writes:
+    - fanduel_player_props_basketball_nba_YYYYMMDD.csv
+    - cleaned_props.csv (stable filename for GitHub Pages)
 """
 
 import csv
-import glob
 import json
 import os
 from datetime import datetime
 from typing import Any, Dict, List, Optional
+from collections import defaultdict
 
 import requests
 
+
+# ================== ENV ==================
 
 def require_env(name: str) -> str:
     value = os.getenv(name)
@@ -40,7 +41,6 @@ API_PREFIX = "/v4"
 DEFAULT_TIMEOUT = (5, 15)
 OUTPUT_DIR = os.getcwd()
 
-# player prop market keys — limit to requested markets only
 PLAYER_MARKETS = [
     "player_points_rebounds_assists",
     "player_points",
@@ -49,18 +49,18 @@ PLAYER_MARKETS = [
 ]
 
 
+# ================== HELPERS ==================
+
 def _url(path: str) -> str:
     return f"{BASE}{API_PREFIX}{path}"
 
 
 def create_session() -> requests.Session:
     s = requests.Session()
-    s.headers.update(
-        {
-            "Accept": "application/json",
-            "User-Agent": "odds-player-props-client/1.0",
-        }
-    )
+    s.headers.update({
+        "Accept": "application/json",
+        "User-Agent": "odds-player-props-client/1.0",
+    })
     return s
 
 
@@ -68,20 +68,22 @@ def _american_to_prob(american: Optional[float]) -> Optional[float]:
     if american is None:
         return None
     try:
-        ao = float(american)
+        a = float(american)
     except Exception:
         return None
-    if ao > 0:
-        return 100.0 / (ao + 100.0)
-    return (-ao) / ((-ao) + 100.0)
+    if a > 0:
+        return 100.0 / (a + 100.0)
+    return (-a) / ((-a) + 100.0)
 
+
+# ================== FETCH ==================
 
 def fetch_nba_events(session: requests.Session) -> List[Dict[str, Any]]:
     url = _url("/sports/basketball_nba/events")
     params = {"apiKey": API_KEY, "regions": "us", "dateFormat": "iso"}
-    resp = session.get(url, params=params, timeout=DEFAULT_TIMEOUT)
-    resp.raise_for_status()
-    return resp.json()
+    r = session.get(url, params=params, timeout=DEFAULT_TIMEOUT)
+    r.raise_for_status()
+    return r.json()
 
 
 def fetch_event_player_props(
@@ -95,13 +97,16 @@ def fetch_event_player_props(
         "oddsFormat": "american",
         "dateFormat": "iso",
     }
-    resp = session.get(url, params=params, timeout=DEFAULT_TIMEOUT)
-    resp.raise_for_status()
-    return resp.json()
+    r = session.get(url, params=params, timeout=DEFAULT_TIMEOUT)
+    r.raise_for_status()
+    return r.json()
 
+
+# ================== FLATTEN ==================
 
 def flatten_events_to_rows(events: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     rows: List[Dict[str, Any]] = []
+
     for event in events:
         if not event:
             continue
@@ -112,94 +117,94 @@ def flatten_events_to_rows(events: List[Dict[str, Any]]) -> List[Dict[str, Any]]
         commence = event.get("commence_time")
 
         for bookmaker in event.get("bookmakers", []) or []:
-            bk_key = bookmaker.get("key")
-            bk_title = bookmaker.get("title")
-            bk_last_update = bookmaker.get("last_update")
-
             for market in bookmaker.get("markets", []) or []:
-                mkey = market.get("key")
-                m_last_update = market.get("last_update")
-                outcomes = market.get("outcomes", []) or []
-
-                implieds: List[float] = []
-                for o in outcomes:
-                    implieds.append(_american_to_prob(o.get("price")) or 0.0)
-
-                total = sum(implieds) or 0.0
-                if total > 0:
-                    no_vig_probs = [p / total for p in implieds]
-                else:
-                    n = max(1, len(outcomes))
-                    no_vig_probs = [1.0 / n] * n
-
-                for idx, o in enumerate(outcomes):
-                    price = o.get("price")
-                    implied = implieds[idx] if idx < len(implieds) else None
-                    no_vig = no_vig_probs[idx] if idx < len(no_vig_probs) else None
-
-                    rows.append(
-                        {
-                            "event_id": event_id,
-                            "home_team": home,
-                            "away_team": away,
-                            "commence_time": commence,
-                            "bookmaker": bk_key,
-                            "bookmaker_title": bk_title,
-                            "bookmaker_last_update": bk_last_update,
-                            "market_last_update": m_last_update,
-                            "market": mkey,
-                            "outcome": o.get("name"),
-                            "description": o.get("description", ""),
-                            "point": o.get("point") if "point" in o else None,
-                            "price_american": price,
-                            "implied_prob": round(implied, 6)
-                            if implied is not None
-                            else None,
-                            "no_vig_prob": round(no_vig, 6) if no_vig is not None else None,
-                        }
-                    )
+                for o in market.get("outcomes", []) or []:
+                    rows.append({
+                        "event_id": event_id,
+                        "home_team": home,
+                        "away_team": away,
+                        "commence_time": commence,
+                        "bookmaker": bookmaker.get("key"),
+                        "bookmaker_title": bookmaker.get("title"),
+                        "market": market.get("key"),
+                        "outcome": o.get("name"),
+                        "description": o.get("description", ""),
+                        "point": o.get("point"),
+                        "price_american": o.get("price"),
+                        "implied_prob": round(
+                            _american_to_prob(o.get("price")) or 0.0, 6
+                        ),
+                        # placeholder – fixed later
+                        "no_vig_prob": None,
+                    })
 
     return rows
 
 
+# ================== FILTER ==================
+
 def filter_fanduel_rows(rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """Return only FanDuel rows where the outcome is Over/Under and market is one we care about."""
-    wanted_markets = set(PLAYER_MARKETS)
-    out: List[Dict[str, Any]] = []
+    wanted = set(PLAYER_MARKETS)
+    out = []
+
     for r in rows:
-        bk = (r.get("bookmaker") or "").lower()
-        market = r.get("market") or ""
-        outcome = (r.get("outcome") or "").strip().lower()
-
-        if bk != "fanduel":
+        if (r.get("bookmaker") or "").lower() != "fanduel":
             continue
-        if market not in wanted_markets:
+        if r.get("market") not in wanted:
             continue
-        if outcome not in ("over", "under"):
+        if (r.get("outcome") or "").lower() not in ("over", "under"):
             continue
-
         out.append(r)
+
     return out
 
 
-def find_latest_flattened_json() -> Optional[str]:
-    pattern = os.path.join(OUTPUT_DIR, "player_props_basketball_nba_*.json")
-    files = glob.glob(pattern)
-    if not files:
-        return None
-    files.sort(key=lambda p: os.path.getmtime(p), reverse=True)
-    return files[0]
+# ================== NO-VIG (CORRECT) ==================
+
+def add_no_vig_over_under(rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Compute no-vig probability ONLY within each Over/Under pair:
+      (event_id, market, description, point)
+    """
+
+    groups = defaultdict(list)
+
+    for r in rows:
+        key = (
+            r.get("event_id"),
+            r.get("market"),
+            r.get("description"),
+            r.get("point"),
+        )
+        groups[key].append(r)
+
+    for items in groups.values():
+        ou = [r for r in items if r["outcome"].lower() in ("over", "under")]
+        if len(ou) != 2:
+            continue
+
+        implied = []
+        for r in ou:
+            p = _american_to_prob(r["price_american"])
+            implied.append(p if p is not None else 0.0)
+
+        total = sum(implied)
+        if total <= 0:
+            continue
+
+        for r, p in zip(ou, implied):
+            r["no_vig_prob"] = round(p / total, 6)
+
+    return rows
 
 
-def write_json(path: str, data: Any) -> None:
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
+# ================== OUTPUT ==================
 
 def write_csv(path: str, rows: List[Dict[str, Any]]) -> None:
     if not rows:
         open(path, "w", encoding="utf-8").close()
         return
+
     keys = list(rows[0].keys())
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=keys)
@@ -207,64 +212,45 @@ def write_csv(path: str, rows: List[Dict[str, Any]]) -> None:
         writer.writerows(rows)
 
 
+# ================== MAIN ==================
+
 def main() -> int:
     session = create_session()
     print("Fetching NBA events...")
 
-    try:
-        events = fetch_nba_events(session)
-    except requests.HTTPError as e:
-        print("Failed to fetch events:", e)
-        return 1
-    except requests.RequestException as e:
-        print("Network/API error while fetching events:", e)
-        return 1
+    events = fetch_nba_events(session)
 
-    today = datetime.utcnow().strftime("%Y%m%d")
-    raw_out: List[Dict[str, Any]] = []
     all_rows: List[Dict[str, Any]] = []
 
     for ev in events:
         eid = ev.get("id")
         if not eid:
             continue
-
         try:
             resp = fetch_event_player_props(session, eid, PLAYER_MARKETS)
-            raw_out.append(resp)
-
-            rows = flatten_events_to_rows([resp])
-            all_rows.extend(rows)
-
-            print(f"Processed event {eid}: +{len(rows)} rows")
-
-        except requests.HTTPError as he:
-            status = getattr(he.response, "status_code", None)
-            print(f"Warning: event {eid} returned HTTP {status}")
-        except requests.RequestException as e:
-            print(f"Network/API error for event {eid}: {e}")
+            all_rows.extend(flatten_events_to_rows([resp]))
+            print(f"Processed event {eid}")
         except Exception as e:
-            print(f"Error fetching event {eid}: {e}")
+            print(f"Skipping event {eid}: {e}")
 
+    # FanDuel + Over/Under only
     fanduel_rows = filter_fanduel_rows(all_rows)
 
-    # FanDuel-only outputs (dated)
-    fanduel_json = os.path.join(OUTPUT_DIR, f"fanduel_player_props_basketball_nba_{today}.json")
-    fanduel_csv = os.path.join(OUTPUT_DIR, f"fanduel_player_props_basketball_nba_{today}.csv")
-    write_json(fanduel_json, fanduel_rows)
-    write_csv(fanduel_csv, fanduel_rows)
-    print(f"Wrote {fanduel_json} ({len(fanduel_rows)} rows)")
-    print(f"Wrote {fanduel_csv} ({len(fanduel_rows)} rows)")
+    # FIXED no-vig calculation
+    fanduel_rows = add_no_vig_over_under(fanduel_rows)
 
-    # Stable filename for GitHub Pages viewer
-    cleaned_csv = os.path.join(OUTPUT_DIR, "cleaned_props.csv")
-    write_csv(cleaned_csv, fanduel_rows)
-    print(f"Wrote {cleaned_csv} ({len(fanduel_rows)} rows)")
+    today = datetime.utcnow().strftime("%Y%m%d")
 
-    # Flattened JSON for reuse (all rows across all books/markets)
-    flat_json = os.path.join(OUTPUT_DIR, f"player_props_basketball_nba_{today}.json")
-    write_json(flat_json, all_rows)
-    print("Wrote", flat_json)
+    dated_csv = os.path.join(
+        OUTPUT_DIR, f"fanduel_player_props_basketball_nba_{today}.csv"
+    )
+    stable_csv = os.path.join(OUTPUT_DIR, "cleaned_props.csv")
+
+    write_csv(dated_csv, fanduel_rows)
+    write_csv(stable_csv, fanduel_rows)
+
+    print(f"Wrote {dated_csv}")
+    print(f"Wrote {stable_csv}")
 
     return 0
 
