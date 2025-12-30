@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FanDuel Props Viewer (No-Vig Highlight)</title>
+
+  <style>
+    :root{
+      --bg:#0b0f14; --panel:#111826; --text:#e7edf5; --muted:#9fb0c3;
+      --border:#223044; --novig:#7d5cff; --hover:#162235;
+    }
+    body{
+      margin:0; background:var(--bg); color:var(--text);
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    }
+    header{
+      padding:18px 22px;
+      border-bottom:1px solid var(--border);
+    }
+    h1{ margin:0 0 4px; font-size:18px; }
+    .sub{ color:var(--muted); font-size:13px; }
+
+    .wrap{ padding:16px 22px 30px; }
+
+    .controls{
+      display:flex; flex-wrap:wrap; gap:10px;
+      background:var(--panel); border:1px solid var(--border);
+      border-radius:12px; padding:12px;
+    }
+    .pill{
+      display:flex; align-items:center; gap:8px;
+      border:1px solid var(--border);
+      border-radius:999px; padding:6px 10px;
+      background:rgba(255,255,255,0.02);
+    }
+    label{ font-size:12px; color:var(--muted); }
+    input, select{
+      background:transparent; border:0; color:var(--text);
+      font-size:12px; outline:none;
+    }
+    button{
+      border:1px solid var(--border);
+      background:rgba(255,255,255,0.04);
+      color:var(--text);
+      padding:6px 10px; border-radius:8px;
+      cursor:pointer; font-size:12px;
+    }
+
+    .meta{
+      margin-top:10px; font-size:12px; color:var(--muted);
+      display:flex; gap:16px; flex-wrap:wrap;
+    }
+
+    .table-wrap{
+      margin-top:14px;
+      border:1px solid var(--border);
+      border-radius:12px;
+      background:var(--panel);
+      overflow:hidden;
+    }
+    table{
+      width:100%; border-collapse:collapse; table-layout:fixed;
+    }
+    thead th{
+      position:sticky; top:0;
+      background:#111826;
+      color:var(--muted);
+      font-size:12px;
+      padding:8px 10px;
+      border-bottom:1px solid var(--border);
+      cursor:pointer;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    tbody td{
+      padding:8px 10px;
+      font-size:12px;
+      border-top:1px solid rgba(34,48,68,.5);
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    tbody tr:hover td{ background:var(--hover); }
+
+    .novig{
+      background:linear-gradient(
+        90deg,
+        rgba(125,92,255,.22),
+        rgba(125,92,255,.06)
+      );
+      border-left:2px solid var(--novig);
+      border-right:2px solid rgba(125,92,255,.35);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>FanDuel Player Props Viewer</h1>
+    <div class="sub">Auto-loads latest CSV • No-vig price highlighted</div>
+  </header>
+
+  <div class="wrap">
+    <div class="controls">
+      <div class="pill">
+        <label>Search</label>
+        <input id="search" placeholder="player, market, team…" />
+      </div>
+      <div class="pill">
+        <label>Rows</label>
+        <select id="rows">
+          <option>25</option>
+          <option selected>50</option>
+          <option>100</option>
+          <option>250</option>
+          <option value="1000000">All</option>
+        </select>
+      </div>
+      <button id="download">Download filtered CSV</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <div class="meta">
+      <div>Source: <strong id="file">cleaned_props.csv</strong></div>
+      <div>Rows: <strong id="total">0</strong></div>
+      <div>Showing: <strong id="shown">0</strong></div>
+      <div id="status"></div>
+    </div>
+
+    <div class="table-wrap">
+      <div style="max-height:72vh; overflow:auto;">
+        <table>
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+<script>
+/* ================== CONFIG ================== */
+const CSV_URL = "cleaned_props.csv";  // <-- GitHub Actions updates this daily
+
+/* ================== CSV PARSER ================== */
+function parseCSV(text){
+  const rows=[], row=[]; let cur="", q=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i], n=text[i+1];
+    if(q){
+      if(c=='"' && n=='"'){cur+='"';i++;}
+      else if(c=='"'){q=false;}
+      else cur+=c;
+    } else {
+      if(c=='"') q=true;
+      else if(c==','){row.push(cur);cur="";}
+      else if(c=='\n'){row.push(cur);rows.push(row.splice(0));cur="";}
+      else if(c!='\r') cur+=c;
+    }
+  }
+  row.push(cur); rows.push(row);
+  return rows;
+}
+
+/* ================== STATE ================== */
+let headers=[], data=[], filtered=[];
+let sortCol=null, sortDir=1, novigCol=null;
+
+const thead=document.querySelector("thead");
+const tbody=document.querySelector("tbody");
+
+/* ================== HELPERS ================== */
+function detectNoVig(cols){
+  return cols.find(c=>c.toLowerCase()==="no_vig_price_american_fair")
+      || cols.find(c=>c.toLowerCase().includes("no_vig") && c.toLowerCase().includes("price"));
+}
+
+function compare(a,b){
+  const na=Number(a), nb=Number(b);
+  if(!isNaN(na)&&!isNaN(nb)) return na-nb;
+  return String(a).localeCompare(String(b),undefined,{numeric:true});
+}
+
+function apply(){
+  const q=document.getElementById("search").value.toLowerCase();
+  filtered = !q ? [...data] : data.filter(r =>
+    headers.some(h => String(r[h]).toLowerCase().includes(q))
+  );
+  if(sortCol)
+    filtered.sort((a,b)=>sortDir*compare(a[sortCol],b[sortCol]));
+}
+
+/* ================== RENDER ================== */
+function render(){
+  apply();
+  const limit=Number(document.getElementById("rows").value);
+  const view=filtered.slice(0,limit);
+
+  tbody.innerHTML="";
+  for(const r of view){
+    const tr=document.createElement("tr");
+    headers.forEach(h=>{
+      const td=document.createElement("td");
+      td.textContent=r[h]??"";
+      if(h===novigCol) td.classList.add("novig");
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  }
+
+  document.getElementById("total").textContent=data.length;
+  document.getElementById("shown").textContent=filtered.length;
+}
+
+/* ================== LOAD CSV ================== */
+fetch(CSV_URL, { cache: "no-store" })
+  .then(r => r.text())
+  .then(text => {
+    const rows=parseCSV(text);
+    headers=rows[0];
+    data = rows.slice(1).map(r=>{
+      const o={}; headers.forEach((h,i)=>o[h]=r[i]??""); return o;
+    });
+    novigCol=detectNoVig(headers);
+
+    thead.innerHTML="";
+    const tr=document.createElement("tr");
+    headers.forEach(h=>{
+      const th=document.createElement("th");
+      th.textContent=h;
+      if(h===novigCol) th.classList.add("novig");
+      th.onclick=()=>{
+        sortDir = sortCol===h ? -sortDir : 1;
+        sortCol=h; render();
+      };
+      tr.appendChild(th);
+    });
+    thead.appendChild(tr);
+
+    render();
+    document.getElementById("status").textContent =
+      novigCol ? `No-vig column: ${novigCol}` : "No-vig column not found";
+  });
+
+/* ================== EVENTS ================== */
+document.getElementById("search").oninput=render;
+document.getElementById("rows").onchange=render;
+document.getElementById("reset").onclick=()=>{
+  document.getElementById("search").value="";
+  sortCol=null; sortDir=1; render();
+};
+document.getElementById("download").onclick=()=>{
+  apply();
+  const csv=[headers.join(",")]
+    .concat(filtered.map(r=>headers.map(h=>`"${String(r[h]).replace(/"/g,'""')}"`).join(",")))
+    .join("\n");
+  const blob=new Blob([csv],{type:"text/csv"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download="filtered_props.csv";
+  a.click();
+};
+</script>
+</body>
+</html>
