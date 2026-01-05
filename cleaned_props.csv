@@ -1,593 +1,573 @@
 event_id,home_team,away_team,commence_time,bookmaker,bookmaker_title,market,outcome,description,point,price_american,implied_prob,no_vig_prob
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_assists,Over,Jaden Ivey,2.5,-120,0.545455,0.510121
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_assists,Under,Jaden Ivey,2.5,-110,0.52381,0.489879
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_assists,Over,Donovan Mitchell,5.5,122,0.45045,0.421466
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_assists,Under,Donovan Mitchell,5.5,-162,0.618321,0.578534
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_assists,Over,Cade Cunningham,10.5,108,0.480769,0.448926
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_assists,Under,Cade Cunningham,10.5,-144,0.590164,0.551074
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_assists,Over,Ausar Thompson,2.5,122,0.45045,0.421466
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_assists,Under,Ausar Thompson,2.5,-162,0.618321,0.578534
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_assists,Over,Darius Garland,6.5,-152,0.603175,0.56347
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_assists,Under,Darius Garland,6.5,114,0.46729,0.43653
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_assists,Over,Evan Mobley,3.5,-152,0.603175,0.56347
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_assists,Under,Evan Mobley,3.5,114,0.46729,0.43653
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Evan Mobley,16.5,102,0.49505,0.462093
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Evan Mobley,16.5,-136,0.576271,0.537907
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,De'Andre Hunter,12.5,-128,0.561404,0.524085
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,De'Andre Hunter,12.5,-104,0.509804,0.475915
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Darius Garland,17.5,-114,0.53271,0.5
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Darius Garland,17.5,-114,0.53271,0.5
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Jaden Ivey,10.5,102,0.49505,0.462093
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Jaden Ivey,10.5,-136,0.576271,0.537907
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Isaiah Stewart II,12.5,-102,0.50495,0.471842
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Isaiah Stewart II,12.5,-130,0.565217,0.528158
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Dean Wade,5.5,-118,0.541284,0.506069
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Dean Wade,5.5,-112,0.528302,0.493931
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Marcus Sasser,11.5,-102,0.50495,0.471842
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Marcus Sasser,11.5,-130,0.565217,0.528158
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Cade Cunningham,27.5,-118,0.541284,0.506069
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Cade Cunningham,27.5,-112,0.528302,0.493931
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Javonte Green,10.5,100,0.5,0.467742
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Javonte Green,10.5,-132,0.568966,0.532258
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Jaylon Tyson,12.5,-130,0.565217,0.528158
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Jaylon Tyson,12.5,-102,0.50495,0.471842
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Donovan Mitchell,28.5,-106,0.514563,0.480847
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Donovan Mitchell,28.5,-125,0.555556,0.519153
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Ron Holland,8.5,-136,0.576271,0.537907
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Ron Holland,8.5,102,0.49505,0.462093
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Duncan Robinson,11.5,-114,0.53271,0.5
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Duncan Robinson,11.5,-114,0.53271,0.5
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Ausar Thompson,12.5,-118,0.541284,0.506069
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Ausar Thompson,12.5,-112,0.528302,0.493931
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Over,Jarrett Allen,12.5,-106,0.514563,0.480847
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points,Under,Jarrett Allen,12.5,-125,0.555556,0.519153
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Cade Cunningham,44.5,-114,0.53271,0.5
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Cade Cunningham,44.5,-114,0.53271,0.5
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Donovan Mitchell,38.5,-108,0.519231,0.485816
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Donovan Mitchell,38.5,-122,0.54955,0.514184
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Duncan Robinson,16.5,-106,0.514563,0.480847
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Duncan Robinson,16.5,-125,0.555556,0.519153
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jaden Ivey,15.5,-125,0.555556,0.521472
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jaden Ivey,15.5,-104,0.509804,0.478528
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Ausar Thompson,20.5,-128,0.561404,0.524085
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Ausar Thompson,20.5,-104,0.509804,0.475915
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Darius Garland,27.5,-112,0.528302,0.493931
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Darius Garland,27.5,-118,0.541284,0.506069
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Evan Mobley,29.5,-108,0.519231,0.485816
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Evan Mobley,29.5,-122,0.54955,0.514184
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Over,Jaden Ivey,1.5,110,0.47619,0.445168
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Under,Jaden Ivey,1.5,-146,0.593496,0.554832
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Over,Marcus Sasser,1.5,-154,0.606299,0.567026
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Under,Marcus Sasser,1.5,116,0.462963,0.432974
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Over,Darius Garland,2.5,102,0.49505,0.462093
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Under,Darius Garland,2.5,-136,0.576271,0.537907
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Over,Cade Cunningham,2.5,124,0.446429,0.417032
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Under,Cade Cunningham,2.5,-166,0.62406,0.582968
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Over,Isaiah Stewart II,1.5,188,0.347222,0.324675
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Under,Isaiah Stewart II,1.5,-260,0.722222,0.675325
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Over,Duncan Robinson,2.5,-136,0.576271,0.537907
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Under,Duncan Robinson,2.5,102,0.49505,0.462093
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Over,Jaylon Tyson,1.5,-146,0.593496,0.554832
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Under,Jaylon Tyson,1.5,110,0.47619,0.445168
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Over,Dean Wade,1.5,126,0.442478,0.413785
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Under,Dean Wade,1.5,-168,0.626866,0.586215
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Over,De'Andre Hunter,1.5,-146,0.593496,0.554832
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Under,De'Andre Hunter,1.5,110,0.47619,0.445168
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Over,Evan Mobley,1.5,194,0.340136,0.317924
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Under,Evan Mobley,1.5,-270,0.72973,0.682076
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Over,Donovan Mitchell,3.5,-114,0.53271,0.5
-a76401e257d96726afaa18aeaccf0751,Cleveland Cavaliers,Detroit Pistons,2026-01-04T19:10:00Z,fanduel,FanDuel,player_threes,Under,Donovan Mitchell,3.5,-114,0.53271,0.5
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Over,T.J. McConnell,4.5,-136,0.576271,0.537907
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Under,T.J. McConnell,4.5,102,0.49505,0.462093
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Over,Pascal Siakam,3.5,112,0.471698,0.44147
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Under,Pascal Siakam,3.5,-148,0.596774,0.55853
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Over,Tyus Jones,4.5,112,0.471698,0.44147
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Under,Tyus Jones,4.5,-148,0.596774,0.55853
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Over,Paolo Banchero,4.5,-162,0.618321,0.578534
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Under,Paolo Banchero,4.5,122,0.45045,0.421466
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Over,Andrew Nembhard,6.5,-138,0.579832,0.541885
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Under,Andrew Nembhard,6.5,104,0.490196,0.458115
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Over,Desmond Bane,4.5,102,0.49505,0.462093
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Under,Desmond Bane,4.5,-136,0.576271,0.537907
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Over,Anthony Black,4.5,116,0.462963,0.432974
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_assists,Under,Anthony Black,4.5,-154,0.606299,0.567026
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,T.J. McConnell,9.5,-108,0.519231,0.485816
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,T.J. McConnell,9.5,-122,0.54955,0.514184
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,Tyus Jones,6.5,-102,0.50495,0.471842
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,Tyus Jones,6.5,-130,0.565217,0.528158
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,Desmond Bane,21.5,-122,0.54955,0.514184
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,Desmond Bane,21.5,-108,0.519231,0.485816
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,Anthony Black,18.5,-112,0.528302,0.493931
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,Anthony Black,18.5,-118,0.541284,0.506069
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,Aaron Nesmith,13.5,-114,0.53271,0.5
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,Aaron Nesmith,13.5,-114,0.53271,0.5
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,Pascal Siakam,24.5,-114,0.53271,0.5
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,Pascal Siakam,24.5,-114,0.53271,0.5
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,Paolo Banchero,25.5,-130,0.565217,0.528158
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,Paolo Banchero,25.5,-102,0.50495,0.471842
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,Goga Bitadze,5.5,-136,0.576271,0.537907
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,Goga Bitadze,5.5,102,0.49505,0.462093
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,Jay Huff,7.5,-106,0.514563,0.480847
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,Jay Huff,7.5,-125,0.555556,0.519153
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,Andrew Nembhard,18.5,-104,0.509804,0.475915
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,Andrew Nembhard,18.5,-128,0.561404,0.524085
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,Ben Sheppard,6.5,-112,0.528302,0.493931
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,Ben Sheppard,6.5,-118,0.541284,0.506069
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,Wendell Carter Jr,13.5,-104,0.509804,0.475915
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,Wendell Carter Jr,13.5,-128,0.561404,0.524085
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Over,Tristan da Silva,8.5,100,0.5,0.467742
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points,Under,Tristan da Silva,8.5,-132,0.568966,0.532258
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Desmond Bane,31.5,-118,0.541284,0.506069
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Desmond Bane,31.5,-112,0.528302,0.493931
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Wendell Carter Jr,23.5,-125,0.555556,0.519153
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Wendell Carter Jr,23.5,-106,0.514563,0.480847
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Pascal Siakam,34.5,-125,0.555556,0.519153
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Pascal Siakam,34.5,-106,0.514563,0.480847
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,T.J. McConnell,17.5,-110,0.52381,0.489879
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,T.J. McConnell,17.5,-120,0.545455,0.510121
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Paolo Banchero,40.5,-114,0.53271,0.5
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Paolo Banchero,40.5,-114,0.53271,0.5
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Andrew Nembhard,28.5,-114,0.53271,0.5
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Andrew Nembhard,28.5,-114,0.53271,0.5
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Anthony Black,27.5,-110,0.52381,0.489879
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Anthony Black,27.5,-120,0.545455,0.510121
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Over,Ben Sheppard,1.5,162,0.381679,0.356983
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Under,Ben Sheppard,1.5,-220,0.6875,0.643017
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Over,Tyus Jones,1.5,144,0.409836,0.381503
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Under,Tyus Jones,1.5,-198,0.66443,0.618497
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Over,Pascal Siakam,1.5,100,0.5,0.467742
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Under,Pascal Siakam,1.5,-132,0.568966,0.532258
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Over,Aaron Nesmith,2.5,116,0.462963,0.432974
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Under,Aaron Nesmith,2.5,-154,0.606299,0.567026
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Over,Jay Huff,1.5,140,0.416667,0.38961
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Under,Jay Huff,1.5,-188,0.652778,0.61039
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Over,Paolo Banchero,1.5,148,0.403226,0.376884
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Under,Paolo Banchero,1.5,-200,0.666667,0.623116
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Over,Anthony Black,1.5,-132,0.568966,0.532258
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Under,Anthony Black,1.5,100,0.5,0.467742
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Over,Andrew Nembhard,1.5,100,0.5,0.467742
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Under,Andrew Nembhard,1.5,-132,0.568966,0.532258
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Over,Desmond Bane,1.5,-160,0.615385,0.575163
-31898558a940481030b3a9edb15c7752,Orlando Magic,Indiana Pacers,2026-01-04T20:10:00Z,fanduel,FanDuel,player_threes,Under,Desmond Bane,1.5,120,0.454545,0.424837
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_assists,Over,Jamal Murray,7.5,-154,0.606299,0.567026
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_assists,Under,Jamal Murray,7.5,116,0.462963,0.432974
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_assists,Over,Michael Porter Jr,3.5,140,0.416667,0.38961
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_assists,Under,Michael Porter Jr,3.5,-188,0.652778,0.61039
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_assists,Over,Egor Demin,3.5,-114,0.53271,0.5
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_assists,Under,Egor Demin,3.5,-114,0.53271,0.5
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_assists,Over,Terance Mann,3.5,126,0.442478,0.413785
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_assists,Under,Terance Mann,3.5,-168,0.626866,0.586215
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Over,Aaron Gordon,12.5,-130,0.565217,0.528158
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Under,Aaron Gordon,12.5,-102,0.50495,0.471842
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Over,Day'Ron Sharpe,11.5,-136,0.576271,0.537907
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Under,Day'Ron Sharpe,11.5,102,0.49505,0.462093
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Over,DaRon Holmes II,8.5,-102,0.50495,0.471842
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Under,DaRon Holmes II,8.5,-130,0.565217,0.528158
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Over,Egor Demin,10.5,-125,0.555556,0.519153
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Under,Egor Demin,10.5,-106,0.514563,0.480847
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Over,Terance Mann,6.5,-118,0.541284,0.506069
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Under,Terance Mann,6.5,-112,0.528302,0.493931
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Over,Peyton Watson,14.5,-120,0.545455,0.510121
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Under,Peyton Watson,14.5,-110,0.52381,0.489879
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Over,Cam Thomas,18.5,-112,0.528302,0.493931
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Under,Cam Thomas,18.5,-118,0.541284,0.506069
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Over,Jamal Murray,26.5,-125,0.555556,0.519153
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Under,Jamal Murray,26.5,-106,0.514563,0.480847
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Over,Noah Clowney,10.5,-138,0.579832,0.541885
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Under,Noah Clowney,10.5,104,0.490196,0.458115
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Over,Christian Braun,10.5,-130,0.565217,0.528158
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Under,Christian Braun,10.5,-102,0.50495,0.471842
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Over,Michael Porter Jr,26.5,-136,0.576271,0.537907
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points,Under,Michael Porter Jr,26.5,102,0.49505,0.462093
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jamal Murray,40.5,-114,0.53271,0.5
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jamal Murray,40.5,-114,0.53271,0.5
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Michael Porter Jr,38.5,-125,0.555556,0.519153
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Michael Porter Jr,38.5,-106,0.514563,0.480847
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Terance Mann,13.5,-122,0.54955,0.514184
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Terance Mann,13.5,-108,0.519231,0.485816
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Egor Demin,18.5,-102,0.50495,0.471842
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Egor Demin,18.5,-130,0.565217,0.528158
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Over,Jamal Murray,2.5,-180,0.642857,0.600685
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Under,Jamal Murray,2.5,134,0.42735,0.399315
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Over,Michael Porter Jr,3.5,-102,0.50495,0.471842
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Under,Michael Porter Jr,3.5,-130,0.565217,0.528158
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Over,Cam Thomas,1.5,-180,0.642857,0.600685
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Under,Cam Thomas,1.5,134,0.42735,0.399315
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Over,Aaron Gordon,0.5,-245,0.710145,0.663775
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Under,Aaron Gordon,0.5,178,0.359712,0.336225
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Over,Egor Demin,2.5,136,0.423729,0.396335
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Under,Egor Demin,2.5,-182,0.64539,0.603665
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Over,Noah Clowney,1.5,-158,0.612403,0.571742
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Under,Noah Clowney,1.5,118,0.458716,0.428258
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Over,Peyton Watson,1.5,164,0.378788,0.353645
-8d6b4abe3aab876f8c65565e13ba3e88,Brooklyn Nets,Denver Nuggets,2026-01-04T20:40:00Z,fanduel,FanDuel,player_threes,Under,Peyton Watson,1.5,-225,0.692308,0.646355
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Jeremiah Fears,3.5,142,0.413223,0.385917
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Jeremiah Fears,3.5,-192,0.657534,0.614083
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Norman Powell,2.5,-148,0.596774,0.55853
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Norman Powell,2.5,112,0.471698,0.44147
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Trey Murphy III,3.5,-110,0.52381,0.48801
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Trey Murphy III,3.5,-122,0.54955,0.51199
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Zion Williamson,3.5,-112,0.528302,0.493931
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Zion Williamson,3.5,-118,0.541284,0.506069
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Jaime Jaquez Jr,4.5,-120,0.545455,0.510121
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Jaime Jaquez Jr,4.5,-110,0.52381,0.489879
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Derik Queen,4.5,112,0.471698,0.44147
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Derik Queen,4.5,-148,0.596774,0.55853
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Bam Adebayo,2.5,-104,0.509804,0.475915
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Bam Adebayo,2.5,-128,0.561404,0.524085
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Davion Mitchell,7.5,110,0.47619,0.445168
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Davion Mitchell,7.5,-146,0.593496,0.554832
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Jordan Poole,3.5,104,0.490196,0.458115
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Jordan Poole,3.5,-138,0.579832,0.541885
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Andrew Wiggins,2.5,-186,0.65035,0.607509
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Andrew Wiggins,2.5,138,0.420168,0.392491
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Norman Powell,24.5,-114,0.53271,0.5
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Norman Powell,24.5,-114,0.53271,0.5
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Jeremiah Fears,12.5,100,0.5,0.467742
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Jeremiah Fears,12.5,-132,0.568966,0.532258
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Trey Murphy III,20.5,-102,0.50495,0.471842
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Trey Murphy III,20.5,-130,0.565217,0.528158
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Davion Mitchell,8.5,-130,0.565217,0.528158
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Davion Mitchell,8.5,-102,0.50495,0.471842
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Kel'el Ware,13.5,102,0.49505,0.462093
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Kel'el Ware,13.5,-136,0.576271,0.537907
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Bam Adebayo,17.5,-104,0.509804,0.475915
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Bam Adebayo,17.5,-128,0.561404,0.524085
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Derik Queen,11.5,-132,0.568966,0.532258
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Derik Queen,11.5,100,0.5,0.467742
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Zion Williamson,25.5,-106,0.514563,0.480847
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Zion Williamson,25.5,-125,0.555556,0.519153
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Jaime Jaquez Jr,17.5,-104,0.509804,0.475915
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Jaime Jaquez Jr,17.5,-128,0.561404,0.524085
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Jordan Poole,15.5,-130,0.565217,0.528158
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Jordan Poole,15.5,-102,0.50495,0.471842
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Andrew Wiggins,16.5,-118,0.541284,0.506069
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Andrew Wiggins,16.5,-112,0.528302,0.493931
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Zion Williamson,34.5,-122,0.54955,0.514184
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Zion Williamson,34.5,-108,0.519231,0.485816
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jaime Jaquez Jr,26.5,-114,0.53271,0.5
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jaime Jaquez Jr,26.5,-114,0.53271,0.5
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Davion Mitchell,18.5,-114,0.53271,0.5
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Davion Mitchell,18.5,-114,0.53271,0.5
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Andrew Wiggins,25.5,-102,0.50495,0.471842
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Andrew Wiggins,25.5,-130,0.565217,0.528158
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Derik Queen,24.5,-108,0.519231,0.485816
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Derik Queen,24.5,-122,0.54955,0.514184
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Trey Murphy III,29.5,-112,0.528302,0.493931
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Trey Murphy III,29.5,-118,0.541284,0.506069
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jordan Poole,21.5,-130,0.565217,0.528158
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jordan Poole,21.5,-102,0.50495,0.471842
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Norman Powell,31.5,-114,0.53271,0.5
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Norman Powell,31.5,-114,0.53271,0.5
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jeremiah Fears,18.5,-112,0.528302,0.493931
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jeremiah Fears,18.5,-118,0.541284,0.506069
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Bam Adebayo,29.5,-125,0.555556,0.519153
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Bam Adebayo,29.5,-106,0.514563,0.480847
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Jordan Poole,2.5,104,0.490196,0.458115
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Jordan Poole,2.5,-138,0.579832,0.541885
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Andrew Wiggins,1.5,-158,0.612403,0.571742
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Andrew Wiggins,1.5,118,0.458716,0.428258
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Trey Murphy III,2.5,-130,0.565217,0.528158
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Trey Murphy III,2.5,-102,0.50495,0.471842
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Norman Powell,3.5,136,0.423729,0.396335
-e565e947367f2a97276b2b942efec009,Miami Heat,New Orleans Pelicans,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Norman Powell,3.5,-182,0.64539,0.603665
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Julius Randle,5.5,-122,0.54955,0.514184
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Julius Randle,5.5,-108,0.519231,0.485816
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Donte DiVincenzo,4.5,-106,0.514563,0.480847
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Donte DiVincenzo,4.5,-125,0.555556,0.519153
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Jaden McDaniels,2.5,-146,0.593496,0.554832
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Jaden McDaniels,2.5,110,0.47619,0.445168
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Alex Sarr,2.5,-128,0.561404,0.524085
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Alex Sarr,2.5,-104,0.509804,0.475915
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,C.J. McCollum,3.5,-158,0.612403,0.571742
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,C.J. McCollum,3.5,118,0.458716,0.428258
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Naz Reid,2.5,-102,0.50495,0.471842
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Naz Reid,2.5,-130,0.565217,0.528158
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Khris Middleton,3.5,134,0.42735,0.399315
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Khris Middleton,3.5,-180,0.642857,0.600685
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Anthony Edwards,4.5,122,0.45045,0.421466
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Anthony Edwards,4.5,-162,0.618321,0.578534
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Carlton Carrington,4.5,128,0.438596,0.40954
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Carlton Carrington,4.5,-172,0.632353,0.59046
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Over,Bilal Coulibaly,2.5,110,0.47619,0.445168
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_assists,Under,Bilal Coulibaly,2.5,-146,0.593496,0.554832
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Jaden McDaniels,12.5,-118,0.541284,0.506069
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Jaden McDaniels,12.5,-112,0.528302,0.493931
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Naz Reid,14.5,-125,0.555556,0.519153
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Naz Reid,14.5,-106,0.514563,0.480847
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Rudy Gobert,11.5,-114,0.53271,0.5
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Rudy Gobert,11.5,-114,0.53271,0.5
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Carlton Carrington,9.5,-102,0.50495,0.471842
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Carlton Carrington,9.5,-130,0.565217,0.528158
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Anthony Edwards,30.5,-114,0.53271,0.5
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Anthony Edwards,30.5,-114,0.53271,0.5
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Khris Middleton,9.5,-112,0.528302,0.493931
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Khris Middleton,9.5,-118,0.541284,0.506069
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Julius Randle,21.5,-110,0.52381,0.489879
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Julius Randle,21.5,-120,0.545455,0.510121
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Tre Johnson,14.5,102,0.49505,0.462093
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Tre Johnson,14.5,-136,0.576271,0.537907
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Donte DiVincenzo,13.5,-102,0.50495,0.471842
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Donte DiVincenzo,13.5,-130,0.565217,0.528158
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Justin Champagnie,10.5,104,0.490196,0.458115
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Justin Champagnie,10.5,-138,0.579832,0.541885
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,C.J. McCollum,18.5,-112,0.528302,0.493931
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,C.J. McCollum,18.5,-118,0.541284,0.506069
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Alex Sarr,17.5,-112,0.528302,0.493931
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Alex Sarr,17.5,-118,0.541284,0.506069
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Bilal Coulibaly,10.5,-112,0.528302,0.493931
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Bilal Coulibaly,10.5,-118,0.541284,0.506069
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Over,Marvin Bagley III,9.5,-118,0.541284,0.506069
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points,Under,Marvin Bagley III,9.5,-112,0.528302,0.493931
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,C.J. McCollum,26.5,-110,0.52381,0.489879
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,C.J. McCollum,26.5,-120,0.545455,0.510121
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Julius Randle,34.5,-114,0.53271,0.5
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Julius Randle,34.5,-114,0.53271,0.5
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Tre Johnson,18.5,-128,0.561404,0.524085
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Tre Johnson,18.5,-104,0.509804,0.475915
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Donte DiVincenzo,22.5,-112,0.528302,0.493931
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Donte DiVincenzo,22.5,-118,0.541284,0.506069
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Anthony Edwards,40.5,-110,0.52381,0.489879
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Anthony Edwards,40.5,-120,0.545455,0.510121
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Carlton Carrington,17.5,-110,0.52381,0.489879
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Carlton Carrington,17.5,-120,0.545455,0.510121
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Bilal Coulibaly,18.5,-102,0.50495,0.471842
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Bilal Coulibaly,18.5,-130,0.565217,0.528158
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Alex Sarr,28.5,-106,0.514563,0.480847
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Alex Sarr,28.5,-125,0.555556,0.519153
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Khris Middleton,16.5,-114,0.53271,0.5
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Khris Middleton,16.5,-114,0.53271,0.5
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Naz Reid,24.5,-110,0.52381,0.489879
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Naz Reid,24.5,-120,0.545455,0.510121
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jaden McDaniels,19.5,-130,0.565217,0.528158
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jaden McDaniels,19.5,-102,0.50495,0.471842
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Jaden McDaniels,1.5,162,0.381679,0.356983
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Jaden McDaniels,1.5,-220,0.6875,0.643017
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Alex Sarr,1.5,172,0.367647,0.343872
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Alex Sarr,1.5,-235,0.701493,0.656128
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Justin Champagnie,1.5,182,0.35461,0.331754
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Justin Champagnie,1.5,-250,0.714286,0.668246
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Tre Johnson,2.5,118,0.458716,0.428258
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Tre Johnson,2.5,-158,0.612403,0.571742
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Bilal Coulibaly,0.5,-240,0.705882,0.659182
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Bilal Coulibaly,0.5,174,0.364964,0.340818
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Anthony Edwards,3.5,116,0.462963,0.432974
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Anthony Edwards,3.5,-154,0.606299,0.567026
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Julius Randle,1.5,108,0.480769,0.448926
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Julius Randle,1.5,-144,0.590164,0.551074
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Carlton Carrington,1.5,-125,0.555556,0.519153
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Carlton Carrington,1.5,-106,0.514563,0.480847
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Naz Reid,2.5,-125,0.555556,0.519153
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Naz Reid,2.5,-106,0.514563,0.480847
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,C.J. McCollum,2.5,100,0.5,0.467742
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,C.J. McCollum,2.5,-132,0.568966,0.532258
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Over,Donte DiVincenzo,2.5,-186,0.65035,0.607509
-202bec44cb17b3fe31e1d47a35bb4311,Washington Wizards,Minnesota Timberwolves,2026-01-04T23:10:00Z,fanduel,FanDuel,player_threes,Under,Donte DiVincenzo,2.5,138,0.420168,0.392491
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Over,Chet Holmgren,1.5,-130,0.565217,0.528158
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Under,Chet Holmgren,1.5,-102,0.50495,0.471842
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Over,Dillon Brooks,1.5,-130,0.565217,0.528158
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Under,Dillon Brooks,1.5,-102,0.50495,0.471842
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Over,Ajay Mitchell,3.5,122,0.45045,0.421466
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Under,Ajay Mitchell,3.5,-162,0.618321,0.578534
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Over,Royce O'Neale,2.5,122,0.45045,0.421466
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Under,Royce O'Neale,2.5,-162,0.618321,0.578534
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Over,Grayson Allen,2.5,-182,0.64539,0.601627
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Under,Grayson Allen,2.5,134,0.42735,0.398373
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Over,Devin Booker,5.5,-132,0.568966,0.532258
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Under,Devin Booker,5.5,100,0.5,0.467742
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Over,Cason Wallace,2.5,158,0.387597,0.362194
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Under,Cason Wallace,2.5,-215,0.68254,0.637806
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Over,Shai Gilgeous-Alexander,6.5,108,0.480769,0.448926
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Under,Shai Gilgeous-Alexander,6.5,-144,0.590164,0.551074
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Over,Collin Gillespie,5.5,118,0.458716,0.428258
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Under,Collin Gillespie,5.5,-158,0.612403,0.571742
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Over,Jalen Williams,5.5,118,0.458716,0.428258
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_assists,Under,Jalen Williams,5.5,-158,0.612403,0.571742
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Mark Williams,10.5,-125,0.555556,0.519153
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Mark Williams,10.5,-106,0.514563,0.480847
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Aaron Wiggins,9.5,-118,0.541284,0.506069
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Aaron Wiggins,9.5,-112,0.528302,0.493931
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Luguentz Dort,7.5,102,0.49505,0.462093
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Luguentz Dort,7.5,-136,0.576271,0.537907
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Royce O'Neale,7.5,-130,0.565217,0.528158
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Royce O'Neale,7.5,-102,0.50495,0.471842
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Oso Ighodaro,4.5,-136,0.576271,0.537907
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Oso Ighodaro,4.5,102,0.49505,0.462093
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Chet Holmgren,17.5,102,0.49505,0.462093
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Chet Holmgren,17.5,-136,0.576271,0.537907
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Devin Booker,23.5,-120,0.545455,0.510121
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Devin Booker,23.5,-110,0.52381,0.489879
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Ajay Mitchell,11.5,-130,0.565217,0.528158
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Ajay Mitchell,11.5,-102,0.50495,0.471842
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Collin Gillespie,14.5,102,0.49505,0.462093
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Collin Gillespie,14.5,-136,0.576271,0.537907
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Shai Gilgeous-Alexander,31.5,-104,0.509804,0.475915
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Shai Gilgeous-Alexander,31.5,-128,0.561404,0.524085
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Jalen Williams,16.5,-125,0.555556,0.519153
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Jalen Williams,16.5,-106,0.514563,0.480847
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Cason Wallace,6.5,-130,0.565217,0.528158
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Cason Wallace,6.5,-102,0.50495,0.471842
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Grayson Allen,11.5,-114,0.53271,0.5
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Grayson Allen,11.5,-114,0.53271,0.5
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Over,Dillon Brooks,19.5,-106,0.514563,0.480847
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points,Under,Dillon Brooks,19.5,-125,0.555556,0.519153
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Shai Gilgeous-Alexander,42.5,-112,0.528302,0.493931
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Shai Gilgeous-Alexander,42.5,-118,0.541284,0.506069
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Devin Booker,34.5,-106,0.514563,0.480847
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Devin Booker,34.5,-125,0.555556,0.519153
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Collin Gillespie,23.5,-112,0.528302,0.493931
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Collin Gillespie,23.5,-118,0.541284,0.506069
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jalen Williams,27.5,-114,0.53271,0.5
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jalen Williams,27.5,-114,0.53271,0.5
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Grayson Allen,16.5,-122,0.54955,0.514184
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Grayson Allen,16.5,-108,0.519231,0.485816
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Chet Holmgren,28.5,-106,0.514563,0.480847
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Chet Holmgren,28.5,-125,0.555556,0.519153
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Dillon Brooks,24.5,-106,0.514563,0.483561
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Dillon Brooks,24.5,-122,0.54955,0.516439
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Cason Wallace,12.5,-102,0.50495,0.471842
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Cason Wallace,12.5,-130,0.565217,0.528158
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Ajay Mitchell,18.5,-114,0.53271,0.5
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Ajay Mitchell,18.5,-114,0.53271,0.5
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Royce O'Neale,14.5,-110,0.52381,0.489879
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Royce O'Neale,14.5,-120,0.545455,0.510121
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Over,Shai Gilgeous-Alexander,1.5,-154,0.606299,0.567026
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Under,Shai Gilgeous-Alexander,1.5,116,0.462963,0.432974
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Over,Collin Gillespie,2.5,-180,0.642857,0.600685
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Under,Collin Gillespie,2.5,134,0.42735,0.399315
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Over,Royce O'Neale,2.5,148,0.403226,0.376884
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Under,Royce O'Neale,2.5,-200,0.666667,0.623116
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Over,Aaron Wiggins,1.5,-118,0.541284,0.506069
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Under,Aaron Wiggins,1.5,-112,0.528302,0.493931
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Over,Chet Holmgren,1.5,140,0.416667,0.38961
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Under,Chet Holmgren,1.5,-188,0.652778,0.61039
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Over,Dillon Brooks,2.5,148,0.403226,0.376884
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Under,Dillon Brooks,2.5,-200,0.666667,0.623116
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Over,Devin Booker,1.5,-174,0.635036,0.593592
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Under,Devin Booker,1.5,130,0.434783,0.406408
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Over,Grayson Allen,2.5,158,0.387597,0.362194
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Under,Grayson Allen,2.5,-215,0.68254,0.637806
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Over,Luguentz Dort,1.5,-154,0.606299,0.567026
-608ad59d278d1266aefcb70a1e1bcfea,Phoenix Suns,Oklahoma City Thunder,2026-01-05T01:10:00Z,fanduel,FanDuel,player_threes,Under,Luguentz Dort,1.5,116,0.462963,0.432974
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_assists,Over,DeMar DeRozan,3.5,-136,0.576271,0.537907
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_assists,Under,DeMar DeRozan,3.5,102,0.49505,0.462093
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_assists,Over,Ryan Rollins,5.5,-102,0.50495,0.471842
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_assists,Under,Ryan Rollins,5.5,-130,0.565217,0.528158
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_assists,Over,Russell Westbrook,6.5,-152,0.603175,0.56347
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_assists,Under,Russell Westbrook,6.5,114,0.46729,0.43653
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_assists,Over,Giannis Antetokounmpo,5.5,-106,0.514563,0.480847
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_assists,Under,Giannis Antetokounmpo,5.5,-125,0.555556,0.519153
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_assists,Over,Kevin Porter Jr.,7.5,-104,0.509804,0.475915
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_assists,Under,Kevin Porter Jr.,7.5,-128,0.561404,0.524085
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_assists,Over,Dennis Schroder,4.5,-136,0.576271,0.537907
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_assists,Under,Dennis Schroder,4.5,102,0.49505,0.462093
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,Kevin Porter Jr.,17.5,102,0.49505,0.462093
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,Kevin Porter Jr.,17.5,-136,0.576271,0.537907
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,Russell Westbrook,14.5,-102,0.50495,0.471842
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,Russell Westbrook,14.5,-130,0.565217,0.528158
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,Kyle Kuzma,10.5,-118,0.541284,0.506069
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,Kyle Kuzma,10.5,-112,0.528302,0.493931
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,Myles Turner,11.5,102,0.49505,0.462093
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,Myles Turner,11.5,-136,0.576271,0.537907
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,Maxime Raynaud,11.5,-128,0.561404,0.524085
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,Maxime Raynaud,11.5,-104,0.509804,0.475915
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,Ryan Rollins,15.5,-120,0.545455,0.510121
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,Ryan Rollins,15.5,-110,0.52381,0.489879
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,DeMar DeRozan,18.5,-132,0.568966,0.532258
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,DeMar DeRozan,18.5,100,0.5,0.467742
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,Giannis Antetokounmpo,29.5,-110,0.52381,0.489879
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,Giannis Antetokounmpo,29.5,-120,0.545455,0.510121
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,A.J. Green,9.5,-118,0.541284,0.506069
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,A.J. Green,9.5,-112,0.528302,0.493931
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,Zach LaVine,16.5,-122,0.54955,0.514184
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,Zach LaVine,16.5,-108,0.519231,0.485816
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,Bobby Portis,12.5,-106,0.514563,0.480847
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,Bobby Portis,12.5,-125,0.555556,0.519153
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,Keegan Murray,14.5,-132,0.568966,0.532258
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,Keegan Murray,14.5,100,0.5,0.467742
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Over,Dennis Schroder,11.5,-114,0.53271,0.5
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points,Under,Dennis Schroder,11.5,-114,0.53271,0.5
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Dennis Schroder,19.5,-112,0.528302,0.493931
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Dennis Schroder,19.5,-118,0.541284,0.506069
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Kyle Kuzma,17.5,-118,0.541284,0.506069
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Kyle Kuzma,17.5,-112,0.528302,0.493931
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Ryan Rollins,25.5,-118,0.541284,0.503992
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Ryan Rollins,25.5,-114,0.53271,0.496008
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Zach LaVine,21.5,-122,0.54955,0.51199
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Zach LaVine,21.5,-110,0.52381,0.48801
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,DeMar DeRozan,27.5,-106,0.514563,0.480847
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,DeMar DeRozan,27.5,-125,0.555556,0.519153
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Kevin Porter Jr.,29.5,-122,0.54955,0.514184
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Kevin Porter Jr.,29.5,-108,0.519231,0.485816
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Russell Westbrook,27.5,-114,0.53271,0.5
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Russell Westbrook,27.5,-114,0.53271,0.5
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Myles Turner,17.5,-125,0.555556,0.519153
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Myles Turner,17.5,-106,0.514563,0.480847
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Giannis Antetokounmpo,45.5,-112,0.528302,0.493931
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Giannis Antetokounmpo,45.5,-118,0.541284,0.506069
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,A.J. Green,15.5,100,0.5,0.467742
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,A.J. Green,15.5,-132,0.568966,0.532258
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Over,A.J. Green,2.5,-138,0.579832,0.541885
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Under,A.J. Green,2.5,104,0.490196,0.458115
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Over,Kevin Porter Jr.,1.5,-162,0.618321,0.578534
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Under,Kevin Porter Jr.,1.5,122,0.45045,0.421466
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Over,Myles Turner,1.5,-186,0.65035,0.607509
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Under,Myles Turner,1.5,138,0.420168,0.392491
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Over,Ryan Rollins,2.5,140,0.416667,0.38961
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Under,Ryan Rollins,2.5,-188,0.652778,0.61039
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Over,Bobby Portis,1.5,-104,0.509804,0.475915
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Under,Bobby Portis,1.5,-128,0.561404,0.524085
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Over,Russell Westbrook,1.5,-158,0.612403,0.571742
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Under,Russell Westbrook,1.5,118,0.458716,0.428258
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Over,Zach LaVine,2.5,140,0.416667,0.38961
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Under,Zach LaVine,2.5,-188,0.652778,0.61039
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Over,Keegan Murray,1.5,-158,0.612403,0.571742
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Under,Keegan Murray,1.5,118,0.458716,0.428258
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Over,Dennis Schroder,1.5,126,0.442478,0.413785
-649a52d549fd66b3f04c0eb6a5bceea0,Sacramento Kings,Milwaukee Bucks,2026-01-05T02:10:00Z,fanduel,FanDuel,player_threes,Under,Dennis Schroder,1.5,-168,0.626866,0.586215
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_assists,Over,Luka Doncic,8.5,112,0.471698,0.44147
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_assists,Under,Luka Doncic,8.5,-148,0.596774,0.55853
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_assists,Over,Marcus Smart,3.5,-112,0.528302,0.493931
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_assists,Under,Marcus Smart,3.5,-118,0.541284,0.506069
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_assists,Over,Santi Aldama,2.5,-162,0.618321,0.578534
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_assists,Under,Santi Aldama,2.5,122,0.45045,0.421466
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_assists,Over,Cedric Coward,3.5,120,0.454545,0.424837
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_assists,Under,Cedric Coward,3.5,-160,0.615385,0.575163
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_assists,Over,LeBron James,6.5,120,0.454545,0.426024
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_assists,Under,LeBron James,6.5,-158,0.612403,0.573976
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_assists,Over,Ja Morant,8.5,-108,0.519231,0.485816
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_assists,Under,Ja Morant,8.5,-122,0.54955,0.514184
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Over,Jaxson Hayes,5.5,-118,0.541284,0.506069
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Under,Jaxson Hayes,5.5,-112,0.528302,0.493931
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Over,Cedric Coward,14.5,-102,0.50495,0.471842
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Under,Cedric Coward,14.5,-130,0.565217,0.528158
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Over,Marcus Smart,10.5,-102,0.50495,0.471842
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Under,Marcus Smart,10.5,-130,0.565217,0.528158
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Over,Jaren Jackson Jr,20.5,-104,0.509804,0.475915
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Under,Jaren Jackson Jr,20.5,-128,0.561404,0.524085
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Over,Jaylen Wells,12.5,-128,0.561404,0.524085
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Under,Jaylen Wells,12.5,-104,0.509804,0.475915
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Over,LeBron James,23.5,-104,0.509804,0.475915
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Under,LeBron James,23.5,-128,0.561404,0.524085
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Over,Luka Doncic,34.5,-114,0.53271,0.5
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Under,Luka Doncic,34.5,-114,0.53271,0.5
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Over,Jake LaRavia,12.5,-120,0.545455,0.510121
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Under,Jake LaRavia,12.5,-110,0.52381,0.489879
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Over,Deandre Ayton,13.5,-106,0.514563,0.480847
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Under,Deandre Ayton,13.5,-125,0.555556,0.519153
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Over,Santi Aldama,14.5,-102,0.50495,0.471842
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Under,Santi Aldama,14.5,-130,0.565217,0.528158
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Over,Ja Morant,21.5,-114,0.53271,0.5
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Under,Ja Morant,21.5,-114,0.53271,0.5
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Over,Jarred Vanderbilt,5.5,-108,0.519231,0.485816
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points,Under,Jarred Vanderbilt,5.5,-122,0.54955,0.514184
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Marcus Smart,16.5,-130,0.565217,0.528158
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Marcus Smart,16.5,-102,0.50495,0.471842
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Santi Aldama,24.5,-108,0.519231,0.485816
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Santi Aldama,24.5,-122,0.54955,0.514184
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,LeBron James,35.5,-125,0.555556,0.519153
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,LeBron James,35.5,-106,0.514563,0.480847
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Luka Doncic,51.5,-112,0.528302,0.493931
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Luka Doncic,51.5,-118,0.541284,0.506069
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Ja Morant,33.5,-125,0.555556,0.519153
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Ja Morant,33.5,-106,0.514563,0.480847
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Cedric Coward,23.5,-125,0.555556,0.519153
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Cedric Coward,23.5,-106,0.514563,0.480847
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Over,Jake LaRavia,1.5,-118,0.541284,0.506069
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Under,Jake LaRavia,1.5,-112,0.528302,0.493931
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Over,LeBron James,1.5,-158,0.612403,0.571742
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Under,LeBron James,1.5,118,0.458716,0.428258
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Over,Luka Doncic,3.5,-138,0.579832,0.541885
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Under,Luka Doncic,3.5,104,0.490196,0.458115
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Over,Santi Aldama,1.5,-158,0.612403,0.571742
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Under,Santi Aldama,1.5,118,0.458716,0.428258
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Over,Marcus Smart,1.5,-152,0.603175,0.56347
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Under,Marcus Smart,1.5,114,0.46729,0.43653
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Over,Ja Morant,1.5,138,0.420168,0.392491
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Under,Ja Morant,1.5,-186,0.65035,0.607509
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Over,Cedric Coward,1.5,126,0.442478,0.414873
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Under,Cedric Coward,1.5,-166,0.62406,0.585127
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Over,Jaren Jackson Jr,1.5,-122,0.54955,0.516439
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Under,Jaren Jackson Jr,1.5,-106,0.514563,0.483561
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Over,Jaylen Wells,1.5,-188,0.652778,0.61039
-85525b53f1abd7179f60a447bad2579b,Los Angeles Lakers,Memphis Grizzlies,2026-01-05T02:40:00Z,fanduel,FanDuel,player_threes,Under,Jaylen Wells,1.5,140,0.416667,0.38961
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Over,Cade Cunningham,9.5,-114,0.53271,0.5
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Under,Cade Cunningham,9.5,-114,0.53271,0.5
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Over,Jalen Brunson,6.5,-136,0.576271,0.537907
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Under,Jalen Brunson,6.5,102,0.49505,0.462093
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Over,Jaden Ivey,2.5,154,0.393701,0.36756
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Under,Jaden Ivey,2.5,-210,0.677419,0.63244
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Over,OG Anunoby,2.5,116,0.462963,0.432974
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Under,OG Anunoby,2.5,-154,0.606299,0.567026
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Over,Miles McBride,2.5,108,0.480769,0.448926
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Under,Miles McBride,2.5,-144,0.590164,0.551074
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Over,Karl-Anthony Towns,2.5,-154,0.606299,0.567026
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Under,Karl-Anthony Towns,2.5,116,0.462963,0.432974
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Over,Mikal Bridges,4.5,-114,0.53271,0.5
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Under,Mikal Bridges,4.5,-114,0.53271,0.5
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Over,Ausar Thompson,2.5,116,0.462963,0.432974
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_assists,Under,Ausar Thompson,2.5,-154,0.606299,0.567026
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Paul Reed Jr,10.5,100,0.5,0.467742
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Paul Reed Jr,10.5,-132,0.568966,0.532258
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Ausar Thompson,12.5,-106,0.514563,0.480847
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Ausar Thompson,12.5,-125,0.555556,0.519153
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Miles McBride,11.5,-128,0.561404,0.524085
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Miles McBride,11.5,-104,0.509804,0.475915
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,OG Anunoby,16.5,-112,0.528302,0.493931
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,OG Anunoby,16.5,-118,0.541284,0.506069
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Mikal Bridges,15.5,-112,0.528302,0.493931
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Mikal Bridges,15.5,-118,0.541284,0.506069
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Jaden Ivey,9.5,-125,0.555556,0.519153
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Jaden Ivey,9.5,-106,0.514563,0.480847
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Cade Cunningham,28.5,-108,0.519231,0.485816
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Cade Cunningham,28.5,-122,0.54955,0.514184
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Mitchell Robinson,3.5,-132,0.568966,0.532258
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Mitchell Robinson,3.5,100,0.5,0.467742
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Jordan Clarkson,7.5,100,0.5,0.467742
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Jordan Clarkson,7.5,-132,0.568966,0.532258
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Karl-Anthony Towns,21.5,-108,0.519231,0.485816
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Karl-Anthony Towns,21.5,-122,0.54955,0.514184
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Duncan Robinson,12.5,-118,0.541284,0.506069
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Duncan Robinson,12.5,-112,0.528302,0.493931
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Jalen Brunson,29.5,-106,0.514563,0.480847
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Jalen Brunson,29.5,-125,0.555556,0.519153
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Javonte Green,6.5,-136,0.576271,0.537907
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Javonte Green,6.5,102,0.49505,0.462093
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Ron Holland,8.5,-102,0.50495,0.471842
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Ron Holland,8.5,-130,0.565217,0.528158
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Over,Isaiah Stewart II,11.5,-106,0.514563,0.480847
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points,Under,Isaiah Stewart II,11.5,-125,0.555556,0.519153
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Karl-Anthony Towns,35.5,-120,0.545455,0.510121
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Karl-Anthony Towns,35.5,-110,0.52381,0.489879
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Ausar Thompson,20.5,-130,0.565217,0.528158
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Ausar Thompson,20.5,-102,0.50495,0.471842
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jaden Ivey,14.5,-110,0.52381,0.489879
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jaden Ivey,14.5,-120,0.545455,0.510121
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Cade Cunningham,44.5,-106,0.514563,0.480847
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Cade Cunningham,44.5,-125,0.555556,0.519153
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jalen Brunson,39.5,-118,0.541284,0.506069
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jalen Brunson,39.5,-112,0.528302,0.493931
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Miles McBride,17.5,-108,0.519231,0.485816
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Miles McBride,17.5,-122,0.54955,0.514184
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,OG Anunoby,24.5,-122,0.54955,0.514184
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,OG Anunoby,24.5,-108,0.519231,0.485816
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Mikal Bridges,24.5,-125,0.555556,0.519153
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Mikal Bridges,24.5,-106,0.514563,0.480847
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Over,Miles McBride,2.5,-112,0.528302,0.493931
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Under,Miles McBride,2.5,-118,0.541284,0.506069
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Over,OG Anunoby,2.5,120,0.454545,0.424837
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Under,OG Anunoby,2.5,-160,0.615385,0.575163
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Over,Duncan Robinson,2.5,-158,0.612403,0.571742
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Under,Duncan Robinson,2.5,118,0.458716,0.428258
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Over,Cade Cunningham,2.5,138,0.420168,0.392491
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Under,Cade Cunningham,2.5,-186,0.65035,0.607509
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Over,Mikal Bridges,2.5,120,0.454545,0.424837
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Under,Mikal Bridges,2.5,-160,0.615385,0.575163
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Over,Karl-Anthony Towns,1.5,-158,0.612403,0.571742
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Under,Karl-Anthony Towns,1.5,118,0.458716,0.428258
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Over,Jalen Brunson,2.5,-178,0.640288,0.597661
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Under,Jalen Brunson,2.5,132,0.431034,0.402339
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Over,Isaiah Stewart II,0.5,-230,0.69697,0.65131
+07c210d30cdf1a467ae466394c9c7d2c,Detroit Pistons,New York Knicks,2026-01-06T00:10:00Z,fanduel,FanDuel,player_threes,Under,Isaiah Stewart II,0.5,168,0.373134,0.34869
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,R.J. Barrett,3.5,100,0.5,0.467742
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,R.J. Barrett,3.5,-132,0.568966,0.532258
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Brandon Ingram,3.5,-132,0.568966,0.532258
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Brandon Ingram,3.5,100,0.5,0.467742
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Jamal Shead,4.5,112,0.471698,0.44147
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Jamal Shead,4.5,-148,0.596774,0.55853
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Immanuel Quickley,6.5,100,0.5,0.467742
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Immanuel Quickley,6.5,-132,0.568966,0.532258
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Onyeka Okongwu,2.5,-180,0.642857,0.600685
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Onyeka Okongwu,2.5,134,0.42735,0.399315
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Jalen Johnson,9.5,-106,0.514563,0.480847
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Jalen Johnson,9.5,-125,0.555556,0.519153
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Scottie Barnes,5.5,-130,0.565217,0.528158
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Scottie Barnes,5.5,-102,0.50495,0.471842
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Nickeil Alexander-Walker,3.5,128,0.438596,0.40954
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Nickeil Alexander-Walker,3.5,-172,0.632353,0.59046
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Dyson Daniels,6.5,110,0.47619,0.445168
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Dyson Daniels,6.5,-146,0.593496,0.554832
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Nickeil Alexander-Walker,20.5,-112,0.528302,0.493931
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Nickeil Alexander-Walker,20.5,-118,0.541284,0.506069
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,R.J. Barrett,19.5,-102,0.50495,0.471842
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,R.J. Barrett,19.5,-130,0.565217,0.528158
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Sandro Mamukelashvili,10.5,-118,0.541284,0.506069
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Sandro Mamukelashvili,10.5,-112,0.528302,0.493931
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Jalen Johnson,24.5,-118,0.541284,0.506069
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Jalen Johnson,24.5,-112,0.528302,0.493931
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Dyson Daniels,12.5,-112,0.528302,0.493931
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Dyson Daniels,12.5,-118,0.541284,0.506069
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Vit Krejci,8.5,-132,0.568966,0.532258
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Vit Krejci,8.5,100,0.5,0.467742
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Brandon Ingram,23.5,-106,0.514563,0.480847
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Brandon Ingram,23.5,-125,0.555556,0.519153
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Scottie Barnes,19.5,-106,0.514563,0.480847
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Scottie Barnes,19.5,-125,0.555556,0.519153
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Jamal Shead,7.5,100,0.5,0.467742
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Jamal Shead,7.5,-132,0.568966,0.532258
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Collin Murray-Boyles,7.5,-130,0.565217,0.528158
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Collin Murray-Boyles,7.5,-102,0.50495,0.471842
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Zaccharie Risacher,9.5,-102,0.50495,0.471842
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Zaccharie Risacher,9.5,-130,0.565217,0.528158
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Kristaps Porzingis,13.5,-130,0.565217,0.528158
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Kristaps Porzingis,13.5,-102,0.50495,0.471842
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Onyeka Okongwu,15.5,-118,0.541284,0.506069
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Onyeka Okongwu,15.5,-112,0.528302,0.493931
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Immanuel Quickley,15.5,-110,0.52381,0.491797
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Immanuel Quickley,15.5,-118,0.541284,0.508203
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Dyson Daniels,24.5,-128,0.561404,0.524085
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Dyson Daniels,24.5,-104,0.509804,0.475915
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Nickeil Alexander-Walker,27.5,-106,0.514563,0.480847
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Nickeil Alexander-Walker,27.5,-125,0.555556,0.519153
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Brandon Ingram,33.5,-114,0.53271,0.5
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Brandon Ingram,33.5,-114,0.53271,0.5
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jalen Johnson,44.5,-106,0.514563,0.480847
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jalen Johnson,44.5,-125,0.555556,0.519153
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Scottie Barnes,34.5,-118,0.541284,0.506069
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Scottie Barnes,34.5,-112,0.528302,0.493931
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,R.J. Barrett,27.5,-125,0.555556,0.519153
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,R.J. Barrett,27.5,-106,0.514563,0.480847
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Immanuel Quickley,26.5,-102,0.50495,0.471842
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Immanuel Quickley,26.5,-130,0.565217,0.528158
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jamal Shead,13.5,-125,0.555556,0.519153
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jamal Shead,13.5,-106,0.514563,0.480847
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Onyeka Okongwu,26.5,-114,0.53271,0.5
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Onyeka Okongwu,26.5,-114,0.53271,0.5
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Brandon Ingram,1.5,-168,0.626866,0.586215
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Brandon Ingram,1.5,126,0.442478,0.413785
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Jamal Shead,1.5,148,0.403226,0.376884
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Jamal Shead,1.5,-200,0.666667,0.623116
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Immanuel Quickley,2.5,114,0.46729,0.43653
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Immanuel Quickley,2.5,-152,0.603175,0.56347
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,R.J. Barrett,1.5,-166,0.62406,0.582968
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,R.J. Barrett,1.5,124,0.446429,0.417032
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Kristaps Porzingis,1.5,118,0.458716,0.428258
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Kristaps Porzingis,1.5,-158,0.612403,0.571742
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Sandro Mamukelashvili,1.5,162,0.381679,0.356983
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Sandro Mamukelashvili,1.5,-220,0.6875,0.643017
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Scottie Barnes,1.5,178,0.359712,0.336225
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Scottie Barnes,1.5,-245,0.710145,0.663775
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Jalen Johnson,1.5,-122,0.54955,0.514184
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Jalen Johnson,1.5,-108,0.519231,0.485816
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Vit Krejci,2.5,148,0.403226,0.376884
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Vit Krejci,2.5,-200,0.666667,0.623116
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Onyeka Okongwu,1.5,-130,0.565217,0.528158
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Onyeka Okongwu,1.5,-102,0.50495,0.471842
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Zaccharie Risacher,1.5,152,0.396825,0.371227
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Zaccharie Risacher,1.5,-205,0.672131,0.628773
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Nickeil Alexander-Walker,3.5,142,0.413223,0.385917
+a4735b19c22f9709d23974fe5d264665,Toronto Raptors,Atlanta Hawks,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Nickeil Alexander-Walker,3.5,-192,0.657534,0.614083
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Nikola Vucevic,4.5,116,0.462963,0.432974
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Nikola Vucevic,4.5,-154,0.606299,0.567026
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Derrick White,5.5,-130,0.565217,0.528158
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Derrick White,5.5,-102,0.50495,0.471842
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Payton Pritchard,5.5,118,0.458716,0.428258
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Payton Pritchard,5.5,-158,0.612403,0.571742
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Coby White,4.5,108,0.480769,0.448926
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Coby White,4.5,-144,0.590164,0.551074
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Over,Jaylen Brown,5.5,110,0.47619,0.445168
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_assists,Under,Jaylen Brown,5.5,-146,0.593496,0.554832
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Luka Garza,7.5,-122,0.54955,0.514184
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Luka Garza,7.5,-108,0.519231,0.485816
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Isaac Okoro,8.5,-125,0.555556,0.519153
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Isaac Okoro,8.5,-106,0.514563,0.480847
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Neemias Queta,10.5,-122,0.54955,0.514184
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Neemias Queta,10.5,-108,0.519231,0.485816
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Anfernee Simons,12.5,-130,0.565217,0.528158
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Anfernee Simons,12.5,-102,0.50495,0.471842
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Sam Hauser,7.5,-128,0.561404,0.524085
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Sam Hauser,7.5,-104,0.509804,0.475915
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Derrick White,18.5,-118,0.541284,0.506069
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Derrick White,18.5,-112,0.528302,0.493931
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Payton Pritchard,16.5,-110,0.52381,0.489879
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Payton Pritchard,16.5,-120,0.545455,0.510121
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Matas Buzelis,15.5,-122,0.54955,0.514184
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Matas Buzelis,15.5,-108,0.519231,0.485816
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Jaylen Brown,30.5,-102,0.50495,0.471842
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Jaylen Brown,30.5,-130,0.565217,0.528158
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Coby White,18.5,-108,0.519231,0.485816
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Coby White,18.5,-122,0.54955,0.514184
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Over,Nikola Vucevic,17.5,-108,0.519231,0.485816
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points,Under,Nikola Vucevic,17.5,-122,0.54955,0.514184
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Derrick White,29.5,-112,0.528302,0.493931
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Derrick White,29.5,-118,0.541284,0.506069
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Matas Buzelis,23.5,-125,0.555556,0.519153
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Matas Buzelis,23.5,-106,0.514563,0.480847
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Payton Pritchard,26.5,-108,0.519231,0.485816
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Payton Pritchard,26.5,-122,0.54955,0.514184
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Coby White,26.5,-108,0.519231,0.485816
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Coby White,26.5,-122,0.54955,0.514184
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Nikola Vucevic,31.5,-118,0.541284,0.506069
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Nikola Vucevic,31.5,-112,0.528302,0.493931
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jaylen Brown,42.5,-118,0.541284,0.506069
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jaylen Brown,42.5,-112,0.528302,0.493931
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Neemias Queta,20.5,-128,0.561404,0.524085
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Neemias Queta,20.5,-104,0.509804,0.475915
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Isaac Okoro,13.5,-118,0.541284,0.506069
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Isaac Okoro,13.5,-112,0.528302,0.493931
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Derrick White,3.5,120,0.454545,0.424837
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Derrick White,3.5,-160,0.615385,0.575163
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Matas Buzelis,1.5,-188,0.652778,0.61039
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Matas Buzelis,1.5,140,0.416667,0.38961
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Nikola Vucevic,1.5,-136,0.576271,0.537907
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Nikola Vucevic,1.5,102,0.49505,0.462093
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Payton Pritchard,2.5,-140,0.583333,0.545799
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Payton Pritchard,2.5,106,0.485437,0.454201
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Jaylen Brown,1.5,-158,0.612403,0.571742
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Jaylen Brown,1.5,118,0.458716,0.428258
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Coby White,2.5,-114,0.53271,0.5
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Coby White,2.5,-114,0.53271,0.5
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Anfernee Simons,1.5,-200,0.666667,0.623116
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Anfernee Simons,1.5,148,0.403226,0.376884
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Over,Sam Hauser,2.5,104,0.490196,0.458115
+f464229b0fe5abe7e94b312d75639617,Boston Celtics,Chicago Bulls,2026-01-06T00:40:00Z,fanduel,FanDuel,player_threes,Under,Sam Hauser,2.5,-138,0.579832,0.541885
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Jalen Williams,5.5,122,0.45045,0.421466
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Jalen Williams,5.5,-162,0.618321,0.578534
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Miles Bridges,2.5,-114,0.53271,0.5
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Miles Bridges,2.5,-114,0.53271,0.5
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Shai Gilgeous-Alexander,6.5,112,0.471698,0.44147
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Shai Gilgeous-Alexander,6.5,-148,0.596774,0.55853
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Brandon Miller,2.5,-162,0.618321,0.578534
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Brandon Miller,2.5,122,0.45045,0.421466
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Ajay Mitchell,3.5,-114,0.53271,0.5
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Ajay Mitchell,3.5,-114,0.53271,0.5
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,LaMelo Ball,6.5,108,0.480769,0.448926
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,LaMelo Ball,6.5,-144,0.590164,0.551074
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Kon Knueppel,2.5,-130,0.565217,0.528158
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Kon Knueppel,2.5,-102,0.50495,0.471842
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Collin Sexton,3.5,118,0.458716,0.428258
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Collin Sexton,3.5,-158,0.612403,0.571742
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Jalen Williams,18.5,100,0.5,0.467742
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Jalen Williams,18.5,-132,0.568966,0.532258
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Shai Gilgeous-Alexander,31.5,-104,0.509804,0.475915
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Shai Gilgeous-Alexander,31.5,-128,0.561404,0.524085
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Luguentz Dort,7.5,-128,0.561404,0.524085
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Luguentz Dort,7.5,-104,0.509804,0.475915
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Miles Bridges,17.5,104,0.490196,0.458115
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Miles Bridges,17.5,-138,0.579832,0.541885
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Kon Knueppel,16.5,-112,0.528302,0.493931
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Kon Knueppel,16.5,-118,0.541284,0.506069
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Cason Wallace,6.5,-120,0.545455,0.510121
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Cason Wallace,6.5,-110,0.52381,0.489879
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Aaron Wiggins,8.5,-132,0.568966,0.532258
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Aaron Wiggins,8.5,100,0.5,0.467742
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Chet Holmgren,18.5,100,0.5,0.467742
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Chet Holmgren,18.5,-132,0.568966,0.532258
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Moussa Diabate,7.5,-118,0.541284,0.506069
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Moussa Diabate,7.5,-112,0.528302,0.493931
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,LaMelo Ball,17.5,-112,0.528302,0.493931
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,LaMelo Ball,17.5,-118,0.541284,0.506069
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Ajay Mitchell,11.5,-132,0.568966,0.532258
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Ajay Mitchell,11.5,100,0.5,0.467742
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Brandon Miller,17.5,-114,0.53271,0.5
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Brandon Miller,17.5,-114,0.53271,0.5
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Collin Sexton,11.5,-108,0.519231,0.485816
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Collin Sexton,11.5,-122,0.54955,0.514184
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Shai Gilgeous-Alexander,42.5,-114,0.53271,0.5
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Shai Gilgeous-Alexander,42.5,-114,0.53271,0.5
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Miles Bridges,26.5,-120,0.545455,0.510121
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Miles Bridges,26.5,-110,0.52381,0.489879
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jalen Williams,28.5,-120,0.545455,0.510121
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jalen Williams,28.5,-110,0.52381,0.489879
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Brandon Miller,25.5,-125,0.555556,0.519153
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Brandon Miller,25.5,-106,0.514563,0.480847
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Ajay Mitchell,19.5,-104,0.509804,0.475915
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Ajay Mitchell,19.5,-128,0.561404,0.524085
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Kon Knueppel,24.5,-114,0.53271,0.5
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Kon Knueppel,24.5,-114,0.53271,0.5
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,LaMelo Ball,29.5,-112,0.528302,0.493931
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,LaMelo Ball,29.5,-118,0.541284,0.506069
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Cason Wallace,1.5,162,0.381679,0.356983
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Cason Wallace,1.5,-220,0.6875,0.643017
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Aaron Wiggins,1.5,100,0.5,0.467742
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Aaron Wiggins,1.5,-132,0.568966,0.532258
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Kon Knueppel,2.5,-180,0.642857,0.600685
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Kon Knueppel,2.5,134,0.42735,0.399315
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Jalen Williams,1.5,178,0.359712,0.336225
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Jalen Williams,1.5,-245,0.710145,0.663775
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,LaMelo Ball,2.5,-158,0.612403,0.571742
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,LaMelo Ball,2.5,118,0.458716,0.428258
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Brandon Miller,2.5,-112,0.528302,0.493931
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Brandon Miller,2.5,-118,0.541284,0.506069
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Shai Gilgeous-Alexander,1.5,-158,0.612403,0.571742
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Shai Gilgeous-Alexander,1.5,118,0.458716,0.428258
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Collin Sexton,1.5,178,0.359712,0.336225
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Collin Sexton,1.5,-245,0.710145,0.663775
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Miles Bridges,1.5,-182,0.64539,0.603665
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Miles Bridges,1.5,136,0.423729,0.396335
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Chet Holmgren,1.5,138,0.420168,0.392491
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Chet Holmgren,1.5,-186,0.65035,0.607509
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Luguentz Dort,1.5,-158,0.612403,0.571742
+5e38fbb5e0a6277859816fe58cf76a1e,Oklahoma City Thunder,Charlotte Hornets,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Luguentz Dort,1.5,118,0.458716,0.428258
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Kevin Durant,5.5,104,0.490196,0.458115
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Kevin Durant,5.5,-138,0.579832,0.541885
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Devin Booker,6.5,118,0.458716,0.428258
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Devin Booker,6.5,-158,0.612403,0.571742
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Amen Thompson,5.5,-114,0.53271,0.5
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Amen Thompson,5.5,-114,0.53271,0.5
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Grayson Allen,2.5,-128,0.561404,0.524085
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Grayson Allen,2.5,-104,0.509804,0.475915
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Collin Gillespie,4.5,-114,0.53271,0.5
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Collin Gillespie,4.5,-114,0.53271,0.5
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Over,Reed Sheppard,3.5,-132,0.568966,0.532258
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_assists,Under,Reed Sheppard,3.5,100,0.5,0.467742
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Grayson Allen,11.5,-118,0.541284,0.506069
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Grayson Allen,11.5,-112,0.528302,0.493931
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Tari Eason,14.5,-108,0.519231,0.485816
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Tari Eason,14.5,-122,0.54955,0.514184
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Devin Booker,23.5,-125,0.555556,0.519153
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Devin Booker,23.5,-106,0.514563,0.480847
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Amen Thompson,17.5,-132,0.568966,0.532258
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Amen Thompson,17.5,100,0.5,0.467742
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Steven Adams,7.5,-130,0.565217,0.528158
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Steven Adams,7.5,-102,0.50495,0.471842
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Jordan Goodwin,8.5,100,0.5,0.467742
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Jordan Goodwin,8.5,-132,0.568966,0.532258
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Jabari Smith Jr,15.5,-118,0.541284,0.506069
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Jabari Smith Jr,15.5,-112,0.528302,0.493931
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Reed Sheppard,12.5,-114,0.53271,0.5
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Reed Sheppard,12.5,-114,0.53271,0.5
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Dillon Brooks,19.5,-104,0.509804,0.475915
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Dillon Brooks,19.5,-128,0.561404,0.524085
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Kevin Durant,28.5,-110,0.52381,0.489879
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Kevin Durant,28.5,-120,0.545455,0.510121
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Royce O'Neale,7.5,-102,0.50495,0.471842
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Royce O'Neale,7.5,-130,0.565217,0.528158
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Mark Williams,9.5,-106,0.514563,0.480847
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Mark Williams,9.5,-125,0.555556,0.519153
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Over,Collin Gillespie,13.5,-118,0.541284,0.506069
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points,Under,Collin Gillespie,13.5,-112,0.528302,0.493931
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Grayson Allen,17.5,-106,0.514563,0.480847
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Grayson Allen,17.5,-125,0.555556,0.519153
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Devin Booker,34.5,-106,0.514563,0.480847
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Devin Booker,34.5,-125,0.555556,0.519153
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Amen Thompson,31.5,-120,0.545455,0.510121
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Amen Thompson,31.5,-110,0.52381,0.489879
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Collin Gillespie,22.5,-112,0.528302,0.493931
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Collin Gillespie,22.5,-118,0.541284,0.506069
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Reed Sheppard,19.5,-118,0.541284,0.506069
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Reed Sheppard,19.5,-112,0.528302,0.493931
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Kevin Durant,39.5,-108,0.519231,0.485816
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Kevin Durant,39.5,-122,0.54955,0.514184
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Tari Eason,1.5,-130,0.565217,0.528158
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Tari Eason,1.5,-102,0.50495,0.471842
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Jabari Smith Jr,2.5,130,0.434783,0.406408
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Jabari Smith Jr,2.5,-174,0.635036,0.593592
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Dillon Brooks,2.5,110,0.47619,0.445168
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Dillon Brooks,2.5,-146,0.593496,0.554832
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Kevin Durant,2.5,140,0.416667,0.38961
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Kevin Durant,2.5,-188,0.652778,0.61039
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Collin Gillespie,2.5,-154,0.606299,0.567026
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Collin Gillespie,2.5,116,0.462963,0.432974
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Reed Sheppard,2.5,122,0.45045,0.421466
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Reed Sheppard,2.5,-162,0.618321,0.578534
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Royce O'Neale,2.5,148,0.403226,0.376884
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Royce O'Neale,2.5,-200,0.666667,0.623116
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Devin Booker,1.5,-174,0.635036,0.593592
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Devin Booker,1.5,130,0.434783,0.406408
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Over,Grayson Allen,2.5,110,0.47619,0.445168
+2b779d0954e1c4a13083ebecc0fe65b2,Houston Rockets,Phoenix Suns,2026-01-06T01:10:00Z,fanduel,FanDuel,player_threes,Under,Grayson Allen,2.5,-146,0.593496,0.554832
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_assists,Over,Tyrese Maxey,7.5,-130,0.565217,0.528158
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_assists,Under,Tyrese Maxey,7.5,-102,0.50495,0.471842
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_assists,Over,Quentin Grimes,3.5,140,0.416667,0.38961
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_assists,Under,Quentin Grimes,3.5,-188,0.652778,0.61039
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_assists,Over,Paul George,3.5,-102,0.50495,0.471842
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_assists,Under,Paul George,3.5,-130,0.565217,0.528158
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_assists,Over,Joel Embiid,4.5,110,0.47619,0.445168
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_assists,Under,Joel Embiid,4.5,-146,0.593496,0.554832
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_assists,Over,Jamal Murray,8.5,-114,0.53271,0.5
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_assists,Under,Jamal Murray,8.5,-114,0.53271,0.5
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_assists,Over,VJ Edgecombe,3.5,-128,0.561404,0.524085
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_assists,Under,VJ Edgecombe,3.5,-104,0.509804,0.475915
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Over,Tyrese Maxey,27.5,-128,0.561404,0.524085
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Under,Tyrese Maxey,27.5,-104,0.509804,0.475915
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Over,Peyton Watson,14.5,-114,0.53271,0.5
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Under,Peyton Watson,14.5,-114,0.53271,0.5
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Over,VJ Edgecombe,16.5,-112,0.528302,0.493931
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Under,VJ Edgecombe,16.5,-118,0.541284,0.506069
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Over,Paul George,14.5,-125,0.555556,0.519153
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Under,Paul George,14.5,-106,0.514563,0.480847
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Over,DaRon Holmes II,8.5,100,0.5,0.467742
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Under,DaRon Holmes II,8.5,-132,0.568966,0.532258
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Over,Christian Braun,10.5,100,0.5,0.467742
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Under,Christian Braun,10.5,-132,0.568966,0.532258
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Over,Jamal Murray,26.5,-106,0.514563,0.480847
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Under,Jamal Murray,26.5,-125,0.555556,0.519153
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Over,Quentin Grimes,12.5,-104,0.509804,0.475915
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Under,Quentin Grimes,12.5,-128,0.561404,0.524085
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Over,Joel Embiid,25.5,-114,0.53271,0.5
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points,Under,Joel Embiid,25.5,-114,0.53271,0.5
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jamal Murray,39.5,-122,0.54955,0.514184
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jamal Murray,39.5,-108,0.519231,0.485816
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Paul George,24.5,-118,0.541284,0.506069
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Paul George,24.5,-112,0.528302,0.493931
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,VJ Edgecombe,25.5,-128,0.561404,0.524085
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,VJ Edgecombe,25.5,-104,0.509804,0.475915
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Quentin Grimes,19.5,-114,0.53271,0.5
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Quentin Grimes,19.5,-114,0.53271,0.5
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Tyrese Maxey,40.5,-112,0.528302,0.493931
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Tyrese Maxey,40.5,-118,0.541284,0.506069
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Joel Embiid,39.5,-108,0.519231,0.485816
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Joel Embiid,39.5,-122,0.54955,0.514184
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Over,Paul George,2.5,122,0.45045,0.421466
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Under,Paul George,2.5,-162,0.618321,0.578534
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Over,VJ Edgecombe,1.5,-210,0.677419,0.63244
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Under,VJ Edgecombe,1.5,154,0.393701,0.36756
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Over,Joel Embiid,1.5,142,0.413223,0.385917
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Under,Joel Embiid,1.5,-192,0.657534,0.614083
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Over,Peyton Watson,1.5,178,0.359712,0.336225
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Under,Peyton Watson,1.5,-245,0.710145,0.663775
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Over,Jamal Murray,2.5,-162,0.618321,0.578534
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Under,Jamal Murray,2.5,122,0.45045,0.421466
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Over,Quentin Grimes,1.5,-178,0.640288,0.597661
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Under,Quentin Grimes,1.5,132,0.431034,0.402339
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Over,Tyrese Maxey,3.5,104,0.490196,0.458115
+8e0209fcea74087227f0a490e9277381,Philadelphia 76ers,Denver Nuggets,2026-01-06T01:40:00Z,fanduel,FanDuel,player_threes,Under,Tyrese Maxey,3.5,-138,0.579832,0.541885
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,Brandin Podziemski,3.5,104,0.490196,0.458115
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,Brandin Podziemski,3.5,-138,0.579832,0.541885
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,Stephen Curry,4.5,114,0.46729,0.43653
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,Stephen Curry,4.5,-152,0.603175,0.56347
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,Jimmy Butler,4.5,-146,0.593496,0.554832
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,Jimmy Butler,4.5,110,0.47619,0.445168
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,Draymond Green,5.5,128,0.438596,0.40954
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,Draymond Green,5.5,-172,0.632353,0.59046
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,James Harden,8.5,110,0.47619,0.445168
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,James Harden,8.5,-146,0.593496,0.554832
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,De'Anthony Melton,1.5,-200,0.666667,0.623116
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,De'Anthony Melton,1.5,148,0.403226,0.376884
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,Kawhi Leonard,3.5,-128,0.561404,0.524085
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,Kawhi Leonard,3.5,-104,0.509804,0.475915
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,Kris Dunn,3.5,134,0.42735,0.399315
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,Kris Dunn,3.5,-180,0.642857,0.600685
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Brook Lopez,6.5,-132,0.568966,0.532258
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Brook Lopez,6.5,100,0.5,0.467742
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Jimmy Butler,19.5,100,0.5,0.467742
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Jimmy Butler,19.5,-132,0.568966,0.532258
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Draymond Green,7.5,-104,0.509804,0.475915
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Draymond Green,7.5,-128,0.561404,0.524085
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Ivica Zubac,12.5,-125,0.555556,0.519153
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Ivica Zubac,12.5,-106,0.514563,0.480847
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,John Collins,11.5,-114,0.53271,0.5
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,John Collins,11.5,-114,0.53271,0.5
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Stephen Curry,27.5,-118,0.541284,0.506069
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Stephen Curry,27.5,-112,0.528302,0.493931
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Nicolas Batum,5.5,102,0.49505,0.462093
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Nicolas Batum,5.5,-136,0.576271,0.537907
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Brandin Podziemski,10.5,-112,0.528302,0.493931
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Brandin Podziemski,10.5,-118,0.541284,0.506069
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Kris Dunn,7.5,-108,0.519231,0.485816
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Kris Dunn,7.5,-122,0.54955,0.514184
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Quinten Post,7.5,-118,0.541284,0.506069
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Quinten Post,7.5,-112,0.528302,0.493931
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,James Harden,23.5,-114,0.53271,0.5
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,James Harden,23.5,-114,0.53271,0.5
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Moses Moody,8.5,-122,0.54955,0.514184
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Moses Moody,8.5,-108,0.519231,0.485816
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,De'Anthony Melton,8.5,-132,0.568966,0.532258
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,De'Anthony Melton,8.5,100,0.5,0.467742
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Kawhi Leonard,28.5,-114,0.53271,0.5
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Kawhi Leonard,28.5,-114,0.53271,0.5
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Draymond Green,18.5,-110,0.52381,0.489879
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Draymond Green,18.5,-120,0.545455,0.510121
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Ivica Zubac,24.5,-112,0.528302,0.493931
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Ivica Zubac,24.5,-118,0.541284,0.506069
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Stephen Curry,36.5,-106,0.514563,0.480847
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Stephen Curry,36.5,-125,0.555556,0.519153
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Kris Dunn,13.5,-125,0.555556,0.519153
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Kris Dunn,13.5,-106,0.514563,0.480847
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,De'Anthony Melton,14.5,-104,0.509804,0.478528
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,De'Anthony Melton,14.5,-125,0.555556,0.521472
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jimmy Butler,29.5,-110,0.52381,0.489879
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jimmy Butler,29.5,-120,0.545455,0.510121
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Brandin Podziemski,17.5,-122,0.54955,0.516439
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Brandin Podziemski,17.5,-106,0.514563,0.483561
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Kawhi Leonard,39.5,-112,0.528302,0.493931
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Kawhi Leonard,39.5,-118,0.541284,0.506069
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,James Harden,36.5,-112,0.528302,0.493931
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,James Harden,36.5,-118,0.541284,0.506069
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Moses Moody,1.5,-158,0.612403,0.571742
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Moses Moody,1.5,118,0.458716,0.428258
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Quinten Post,1.5,118,0.458716,0.428258
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Quinten Post,1.5,-158,0.612403,0.571742
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Draymond Green,1.5,152,0.396825,0.371227
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Draymond Green,1.5,-205,0.672131,0.628773
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Kris Dunn,1.5,146,0.406504,0.379579
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Kris Dunn,1.5,-198,0.66443,0.620421
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,De'Anthony Melton,1.5,126,0.442478,0.413785
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,De'Anthony Melton,1.5,-168,0.626866,0.586215
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,James Harden,2.5,-166,0.62406,0.582968
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,James Harden,2.5,124,0.446429,0.417032
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Kawhi Leonard,2.5,-154,0.606299,0.567026
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Kawhi Leonard,2.5,116,0.462963,0.432974
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Brandin Podziemski,1.5,-114,0.53271,0.5
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Brandin Podziemski,1.5,-114,0.53271,0.5
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Nicolas Batum,1.5,106,0.485437,0.454201
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Nicolas Batum,1.5,-140,0.583333,0.545799
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Stephen Curry,4.5,-110,0.52381,0.489879
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Stephen Curry,4.5,-120,0.545455,0.510121
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Brook Lopez,1.5,124,0.446429,0.417032
+078a4d38068bc82683be486a54fc6995,Los Angeles Clippers,Golden State Warriors,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Brook Lopez,1.5,-166,0.62406,0.582968
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,Toumani Camara,2.5,-162,0.618321,0.578534
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,Toumani Camara,2.5,122,0.45045,0.421466
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,Shaedon Sharpe,2.5,-162,0.618321,0.578534
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,Shaedon Sharpe,2.5,122,0.45045,0.421466
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,Jusuf Nurkic,4.5,108,0.480769,0.448926
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,Jusuf Nurkic,4.5,-144,0.590164,0.551074
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,Keyonte George,6.5,-104,0.509804,0.475915
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,Keyonte George,6.5,-128,0.561404,0.524085
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,Lauri Markkanen,1.5,-162,0.618321,0.578534
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,Lauri Markkanen,1.5,122,0.45045,0.421466
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Over,Deni Avdija,8.5,-132,0.568966,0.532258
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_assists,Under,Deni Avdija,8.5,100,0.5,0.467742
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Keyonte George,24.5,-114,0.53271,0.5
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Keyonte George,24.5,-114,0.53271,0.5
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Lauri Markkanen,26.5,-112,0.528302,0.493931
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Lauri Markkanen,26.5,-118,0.541284,0.506069
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Shaedon Sharpe,25.5,-102,0.50495,0.471842
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Shaedon Sharpe,25.5,-130,0.565217,0.528158
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Deni Avdija,28.5,-128,0.561404,0.524085
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Deni Avdija,28.5,-104,0.509804,0.475915
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Jusuf Nurkic,11.5,-125,0.555556,0.519153
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Jusuf Nurkic,11.5,-106,0.514563,0.480847
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Kris Murray,6.5,-114,0.53271,0.5
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Kris Murray,6.5,-114,0.53271,0.5
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Ace Bailey,10.5,-114,0.53271,0.5
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Ace Bailey,10.5,-114,0.53271,0.5
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Donovan Clingan,12.5,-112,0.528302,0.493931
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Donovan Clingan,12.5,-118,0.541284,0.506069
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Svi Mykhailiuk,6.5,-112,0.528302,0.493931
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Svi Mykhailiuk,6.5,-118,0.541284,0.506069
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Over,Toumani Camara,14.5,-114,0.53271,0.5
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points,Under,Toumani Camara,14.5,-114,0.53271,0.5
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Jusuf Nurkic,25.5,-114,0.53271,0.5
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Jusuf Nurkic,25.5,-114,0.53271,0.5
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Shaedon Sharpe,32.5,-108,0.519231,0.485816
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Shaedon Sharpe,32.5,-122,0.54955,0.514184
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Lauri Markkanen,35.5,-122,0.54955,0.514184
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Lauri Markkanen,35.5,-108,0.519231,0.485816
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Toumani Camara,22.5,-122,0.54955,0.514184
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Toumani Camara,22.5,-108,0.519231,0.485816
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Keyonte George,35.5,-114,0.53271,0.5
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Keyonte George,35.5,-114,0.53271,0.5
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Over,Deni Avdija,46.5,-110,0.52381,0.489879
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_points_rebounds_assists,Under,Deni Avdija,46.5,-120,0.545455,0.510121
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Keyonte George,2.5,-138,0.579832,0.541885
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Keyonte George,2.5,104,0.490196,0.458115
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Ace Bailey,1.5,110,0.47619,0.445168
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Ace Bailey,1.5,-146,0.593496,0.554832
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Deni Avdija,2.5,116,0.462963,0.432974
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Deni Avdija,2.5,-154,0.606299,0.567026
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Lauri Markkanen,2.5,-120,0.545455,0.510121
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Lauri Markkanen,2.5,-110,0.52381,0.489879
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Toumani Camara,2.5,-136,0.576271,0.537907
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Toumani Camara,2.5,102,0.49505,0.462093
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Over,Shaedon Sharpe,2.5,-104,0.509804,0.475915
+45d0b580462adaf7e3969a7c2b566771,Portland Trail Blazers,Utah Jazz,2026-01-06T03:10:00Z,fanduel,FanDuel,player_threes,Under,Shaedon Sharpe,2.5,-128,0.561404,0.524085
